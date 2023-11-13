@@ -1,9 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
@@ -30,7 +28,7 @@ export default function Home() {
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1</title>
+        <title>AdSpite - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1</title>
         <meta
           name="description"
           content="Adser chuyên sâu về lĩnh vực Facebook Advertiser, đưa ra giải pháp tối ưu và đã đồng hành cùng hơn 10K khách hàng đối tác trong và ngoài nước"
@@ -53,8 +51,8 @@ export default function Home() {
           property="og:image"
           content="https://adser.vn/wp-content/uploads/2023/06/Blue-Minimalist-Ai-in-Healthcare-YouTube-Thumbnail-1.jpg"
         />
-        <meta property="og:image:width"  />
-        <meta property="og:image:height"   />
+        <meta property="og:image:width" />
+        <meta property="og:image:height" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:label1" content="Ước tính thời gian đọc" />
@@ -283,7 +281,7 @@ export default function Home() {
                         </a>{" "}
                         <a
                           href="https://adser.vn/#"
-                          
+
                           title="Vietnamese"
                           className="glink nturl notranslate active"
                         >
@@ -553,20 +551,7 @@ export default function Home() {
                       title="Adser.vn - Extension Hỗ Trợ ADS Thủ Facebook #1"
                       rel="home"
                     >
-                      <img
-                        width={1020}
-                        height={333}
-                        src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/LOGO-9-1.png"
-                        className="header_logo header-logo"
-                        alt="Adser.vn"
-                      />
-                      <img
-                        width={1020}
-                        height={333}
-                        src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/LOGO-9-1.png"
-                        className="header-logo-dark"
-                        alt="Adser.vn"
-                      />
+                      <h1 style={{ fontWeight: '800', fontSize: 22, marginTop: 20 }}> ADSPITE.COM</h1>
                     </a>
                   </div>
                   <div className="flex-col show-for-medium flex-left">
@@ -599,7 +584,7 @@ flex-grow"
                           href="https://adser.vn/adser-check/"
                           className="nav-top-link"
                         >
-                          Adser Check Pro<sup className="badge badge-danger">New</sup>
+                          AdSpite Check Pro<sup className="badge badge-danger">New</sup>
                         </a>
                       </li>
                       <li
@@ -639,7 +624,7 @@ flex-grow"
                             className="button plain"
                             style={{ borderRadius: 99 }}
                           >
-                            <span>Đăng Nhập Adser</span>
+                            <span>Đăng Nhập AdSpite</span>
                           </a>
                         </div>
                       </li>
@@ -1639,7 +1624,7 @@ flex-grow"
                   <div id="col-47048979" className="col medium-3 small-6 large-3">
                     <div className="col-inner">
                       <div id="text-506517798" className="text">
-                        <h3>DỊCH VỤ CỦA ADSER</h3>
+                        <h3>DỊCH VỤ CỦA ADSPITE</h3>
                         <ul>
                           <li>Cho thuê tài khoản Agency</li>
                           <li>Shop Dịch Vụ Tài Nguyên</li>
@@ -2130,7 +2115,7 @@ flex-grow"
         <aside className="menu-bottom-drawer menu-dv-mb">
           <div className="title">
 
-            Dịch vụ của Adser
+            Dịch vụ của AdSpite
           </div>
           <ul className="t-submenu">
             <li  >
@@ -2249,31 +2234,7 @@ flex-grow"
           </div>
         </aside>
         <div className="phone-ring">
-          <div className="n-tell">
-            <div className="n-tell-phone-ring">
-              <div className="n-tell-cricle" />
-              <div className="n-tell-cricle-fill" />
-              <div className="n-tell-img-cricle">
-                <a href="tel:0969565744" className="n-pps-btn-img">
-                  <br />
-                  <img
-                    src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon-call.png"
-                    alt="Gọi điện ngay"
-                  // sizes={5}
-                  />
-                  <br />
-                </a>
-              </div>
-              <p />
-            </div>
-            <div className="n-tell-bar">
-              <a href="tel:0969565744">
-                <br />
-                <span className="n-text-tell">0969565744</span>
-                <br />
-              </a>
-            </div>
-          </div>
+         
         </div>
         <div className="list-shortcut-desktop">
           <a className="zalo" href="https://zalo.me/g/uesxge341" />
