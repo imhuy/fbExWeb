@@ -14,110 +14,2603 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
+      <>
+        {/* saved from url=(0017)https://adser.vn/ */}
+        <meta charSet="UTF-8" />
+        <style
+          dangerouslySetInnerHTML={{
+            __html:
+              "home-sec-3,home-sec-5{content-visibility:auto;contain-intrinsic-size:1px 1000px;}"
+          }}
+        />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="pingback" href="https://adser.vn/xmlrpc.php" />{" "}
+        <meta
+          name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1</title>
+        <meta
+          name="description"
+          content="Adser chuyên sâu về lĩnh vực Facebook Advertiser, đưa ra giải pháp tối ưu và đã đồng hành cùng hơn 10K khách hàng đối tác trong và ngoài nước"
+        />
+        <link rel="canonical" href="https://adser.vn/" />
+        <meta property="og:locale" content="vi_VN" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1"
+        />
+        <meta
+          property="og:description"
+          content="Adser chuyên sâu về lĩnh vực Facebook Advertiser, đưa ra giải pháp tối ưu và đã đồng hành cùng hơn 10K khách hàng đối tác trong và ngoài nước"
+        />
+        <meta property="og:url" content="https://adser.vn/" />
+        <meta property="og:site_name" content="Adser.vn" />
+        <meta property="article:modified_time" content="2023-08-14T16:40:34+00:00" />
+        <meta
+          property="og:image"
+          content="https://adser.vn/wp-content/uploads/2023/06/Blue-Minimalist-Ai-in-Healthcare-YouTube-Thumbnail-1.jpg"
+        />
+        <meta property="og:image:width"  />
+        <meta property="og:image:height"   />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Ước tính thời gian đọc" />
+        <meta name="twitter:data1" content="13 phút" />{" "}
+        <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+        <link rel="dns-prefetch" href="//use.fontawesome.com" />
+        <link
+          rel="prefetch"
+          href="https://adser.vn/wp-content/themes/flatsome/assets/js/chunk.countup.js?ver=3.16.6"
+        />
+        <link
+          rel="prefetch"
+          href="https://adser.vn/wp-content/themes/flatsome/assets/js/chunk.sticky-sidebar.js?ver=3.16.6"
+        />
+        <link
+          rel="prefetch"
+          href="https://adser.vn/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.16.6"
+        />
+        <link
+          rel="prefetch"
+          href="https://adser.vn/wp-content/themes/flatsome/assets/js/chunk.vendors-popups.js?ver=3.16.6"
+        />
+        <link
+          rel="prefetch"
+          href="https://adser.vn/wp-content/themes/flatsome/assets/js/chunk.vendors-slider.js?ver=3.16.6"
+        />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Dòng thông tin Adser.vn »"
+          href="https://adser.vn/feed/"
+        />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Dòng phản hồi Adser.vn »"
+          href="https://adser.vn/comments/feed/"
+        />{" "}
+        <style
+          id="wp-emoji-styles-inline-css"
+          type="text/css"
+          dangerouslySetInnerHTML={{
+            __html:
+              "img.wp-smiley, img.emoji {\n\t\tdisplay: inline !important;\n\t\tborder: none !important;\n\t\tbox-shadow: none !important;\n\t\theight: 1em !important;\n\t\twidth: 1em !important;\n\t\tmargin: 0 0.07em !important;\n\t\tvertical-align: -0.1em !important;\n\t\tbackground: none !important;\n\t\tpadding: 0 !important;\n\t}"
+          }}
+        />
+        <style
+          id="wp-block-library-inline-css"
+          type="text/css"
+          dangerouslySetInnerHTML={{
+            __html:
+              ":root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{clip:rect(1px,1px,1px,1px);word-wrap:normal!important;border:0;-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{clip:auto!important;background-color:#ddd;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}"
+          }}
+        />
+        <style
+          id="classic-theme-styles-inline-css"
+          type="text/css"
+          dangerouslySetInnerHTML={{
+            __html:
+              "/*! This file is auto-generated */\n.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}"
+          }}
+        />
+        <link
+          rel="stylesheet"
+          id="contact-form-7-css"
+          href="https://adser.vn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.7"
+          type="text/css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          id="wp-bottom-menu-css"
+          href="https://adser.vn/wp-content/plugins/wp-bottom-menu/assets/css/style.css?ver=2.2.1"
+          type="text/css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          id="font-awesome-css"
+          href="https://adser.vn/wp-content/plugins/wp-bottom-menu/inc/customizer/customizer-repeater/css/font-awesome.min.css?ver=1.1.0"
+          type="text/css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          id="font-awesome-official-css"
+          href="https://use.fontawesome.com/releases/v6.4.0/css/all.css"
+          type="text/css"
+          media="all"
+          integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          id="flatsome-main-css"
+          href="https://adser.vn/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.16.6"
+          type="text/css"
+          media="all"
+        />
+        <style
+          id="flatsome-main-inline-css"
+          type="text/css"
+          dangerouslySetInnerHTML={{
+            __html:
+              '@font-face {\n\t\t\t\tfont-family: "fl-icons";\n\t\t\t\tfont-display: block;\n\t\t\t\tsrc: url(https://adser.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot?v=3.16.6);\n\t\t\t\tsrc:\n\t\t\t\t\turl(https://adser.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot#iefix?v=3.16.6) format("embedded-opentype"),\n\t\t\t\t\turl(https://adser.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2?v=3.16.6) format("woff2"),\n\t\t\t\t\turl(https://adser.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf?v=3.16.6) format("truetype"),\n\t\t\t\t\turl(https://adser.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff?v=3.16.6) format("woff"),\n\t\t\t\t\turl(https://adser.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg?v=3.16.6#fl-icons) format("svg");\n\t\t\t}'
+          }}
+        />
+        <link
+          rel="stylesheet"
+          id="flatsome-style-css"
+          href="https://adser.vn/wp-content/themes/flatsome-child/style.css?ver=3.0"
+          type="text/css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          id="thang_css-css"
+          href="https://adser.vn/wp-content/themes/flatsome-child/thang.css?ver=654e54242c229"
+          type="text/css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          id="font-awesome-official-v4shim-css"
+          href="https://use.fontawesome.com/releases/v6.4.0/css/v4-shims.css"
+          type="text/css"
+          media="all"
+          integrity="sha384-TjXU13dTMPo+5ZlOUI1IGXvpmajjoetPqbUJqTx+uZ1bGwylKHNEItuVe/mg/H6l"
+          crossOrigin="anonymous"
+        />{" "}
+        <link rel="https://api.w.org/" href="https://adser.vn/wp-json/" />
+        <link
+          rel="alternate"
+          type="application/json"
+          href="https://adser.vn/wp-json/wp/v2/pages/10"
+        />
+        <link
+          rel="EditURI"
+          type="application/rsd+xml"
+          title="RSD"
+          href="https://adser.vn/xmlrpc.php?rsd"
+        />
+        <meta name="generator" content="WordPress 6.4.1" />
+        <link rel="shortlink" href="https://adser.vn/" />
+        <link
+          rel="alternate"
+          type="application/json+oembed"
+          href="https://adser.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fadser.vn%2F"
+        />
+        <link
+          rel="alternate"
+          type="text/xml+oembed"
+          href="https://adser.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fadser.vn%2F&format=xml"
+        />
+        <style
+          dangerouslySetInnerHTML={{
+            __html:
+              ".bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}"
+          }}
+        />{" "}
+        <link
+          rel="icon"
+          href="https://adser.vn/wp-content/uploads/2023/06/cropped-icon-128-32x32.png"
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          href="https://adser.vn/wp-content/uploads/2023/06/cropped-icon-128-192x192.png"
+          sizes="192x192"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://adser.vn/wp-content/uploads/2023/06/cropped-icon-128-180x180.png"
+        />
+        <meta
+          name="msapplication-TileImage"
+          content="https://adser.vn/wp-content/uploads/2023/06/cropped-icon-128-270x270.png"
+        />
+        <style
+          id="custom-css"
+          type="text/css"
+          dangerouslySetInnerHTML={{
+            __html:
+              ':root {--primary-color: #2d2d2d;}.container-width, .full-width .ubermenu-nav, .container, .row{max-width: 1250px}.row.row-collapse{max-width: 1220px}.row.row-small{max-width: 1242.5px}.row.row-large{max-width: 1280px}.header-main{height: 90px}#logo img{max-height: 90px}#logo{width:170px;}.header-top{min-height: 30px}.transparent .header-main{height: 90px}.transparent #logo img{max-height: 90px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 120px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.header-bg-color {background-color: #ffffff}.header-bottom {background-color: #f1f1f1}@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color=\'primary\'], .is-outline.primary{color: #2d2d2d;}/* Color !important */[data-text-color="primary"]{color: #2d2d2d!important;}/* Background Color */[data-text-bg="primary"]{background-color: #2d2d2d;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .header-vertical-menu__opener ,.is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type=\'submit\']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type=\'submit\'].primary, input[type=\'submit\'].primary, input[type=\'reset\'].button, input[type=\'button\'].primary, .badge-inner{background-color: #2d2d2d;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #2d2d2d}.nav-tabs > li.active > a{border-top-color: #2d2d2d}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #2d2d2d }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #2d2d2d }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #2d2d2d;}/* Focus */.primary:focus-visible, .submit-button:focus-visible, button[type="submit"]:focus-visible { outline-color: #2d2d2d!important; }body{color: #2d2d2d}h1,h2,h3,h4,h5,h6,.heading-font{color: #2d2d2d;}body{font-size: 100%;}body{font-family: Montserrat, sans-serif;}body {font-weight: 400;font-style: normal;}.nav > li > a {font-family: Montserrat, sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family: Montserrat, sans-serif;}.nav > li > a,.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;font-style: normal;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: Montserrat, sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2 {font-weight: 700;font-style: normal;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font {font-weight: 400!important;font-style: normal!important;}.header:not(.transparent) .header-nav-main.nav > li > a {color: #17c1e8;}a{color: #2d2d2d;}.nav-vertical-fly-out > li + li {border-top-width: 1px; border-top-style: solid;}/* Custom CSS */.processing:before{display: none}.glink span{color: white}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}'
+          }}
+        />
+        <style
+          id="kirki-inline-styles"
+          dangerouslySetInnerHTML={{
+            __html:
+              "/* cyrillic-ext */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXx-p7K4GLvztg.woff) format('woff');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXx-p7K4GLvztg.woff) format('woff');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXx-p7K4GLvztg.woff) format('woff');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXx-p7K4GLvztg.woff) format('woff');\n  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXx-p7K4GLs.woff) format('woff');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w0aXx-p7K4GLvztg.woff) format('woff');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w9aXx-p7K4GLvztg.woff) format('woff');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w2aXx-p7K4GLvztg.woff) format('woff');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aXx-p7K4GLvztg.woff) format('woff');\n  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXx-p7K4GLs.woff) format('woff');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}/* vietnamese */\n@font-face {\n  font-family: 'Dancing Script';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep6hNX6pmRMjLo.woff) format('woff');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Dancing Script';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp6hNX6pmRMjLo.woff) format('woff');\n  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Dancing Script';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://adser.vn/wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup6hNX6pmRM.woff) format('woff');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}"
+          }}
+        />
+        &lt;
+        <a className="skip-link screen-reader-text" href="https://adser.vn/#main">
+          Skip to content
+        </a>
+        <div id="wrapper">
+          <header
+            id="header"
+            className="header has-transparent has-sticky sticky-jump"
+            style={{ height: 138 }}
+          >
+            <div className="header-wrapper stuck">
+              <div
+                id="top-bar"
+                className="header-top hide-for-sticky nav-dark flex-has-center hide-for-medium"
+              >
+                <div className="flex-row container">
+                  <div className="flex-col hide-for-medium flex-left">
+                    <ul className="nav nav-left medium-nav-center nav-small  nav-divided">
+                      <li className="html custom html_topbar_right">
+                        <a
+                          href="https://adser.vn/#"
+
+                          title="English"
+                          className="glink nturl notranslate"
+                        >
+                          <img
+                            src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/en.png"
+                            height={24}
+                            width={24}
+                            alt="English"
+                          />{" "}
+                          <span>EN</span>
+                        </a>{" "}
+                        <a
+                          href="https://adser.vn/#"
+                          
+                          title="Vietnamese"
+                          className="glink nturl notranslate active"
+                        >
+                          <img
+                            src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/vi.png"
+                            height={24}
+                            width={24}
+                            alt="Vietnamese"
+                          />{" "}
+                          <span>VI</span>
+                        </a>
+                        <style
+                          dangerouslySetInnerHTML={{
+                            __html:
+                              "#goog-gt-tt{display:none!important;}.goog-te-banner-frame{display:none!important;}.goog-te-menu-value:hover{text-decoration:none!important;}.goog-text-highlight{background-color:transparent!important;box-shadow:none!important;}body{top:0!important;}#google_translate_element2{display:none!important;}"
+                          }}
+                        />
+                        <div id="google_translate_element2">
+                          <div
+                            className="skiptranslate goog-te-gadget"
+                            dir="ltr"
+                            style={{}}
+                          >
+                            <div id=":0.targetLanguage">
+                              <select
+                                className="goog-te-combo"
+                                aria-label="Tiện ích dịch ngôn ngữ"
+                              >
+                                <option value="">Chọn Ngôn ngữ</option>
+                                <option value="ar">Ả Rập</option>
+                                <option value="sq">Albania</option>
+                                <option value="am">Amharic</option>
+                                <option value="en">Anh</option>
+                                <option value="hy">Armenia</option>
+                                <option value="as">Assam</option>
+                                <option value="ay">Aymara</option>
+                                <option value="az">Azerbaijan</option>
+                                <option value="pl">Ba Lan</option>
+                                <option value="fa">Ba Tư</option>
+                                <option value="bm">Bambara</option>
+                                <option value="xh">Bantu</option>
+                                <option value="eu">Basque</option>
+                                <option value="be">Belarus</option>
+                                <option value="bn">Bengal</option>
+                                <option value="bho">Bhojpuri</option>
+                                <option value="bs">Bosnia</option>
+                                <option value="pt">Bồ Đào Nha</option>
+                                <option value="bg">Bulgaria</option>
+                                <option value="ca">Catalan</option>
+                                <option value="ceb">Cebuano</option>
+                                <option value="ny">Chichewa</option>
+                                <option value="co">Corsi</option>
+                                <option value="ht">Creole (Haiti)</option>
+                                <option value="hr">Croatia</option>
+                                <option value="dv">Dhivehi</option>
+                                <option value="iw">Do Thái</option>
+                                <option value="doi">Dogri</option>
+                                <option value="da">Đan Mạch</option>
+                                <option value="de">Đức</option>
+                                <option value="et">Estonia</option>
+                                <option value="ee">Ewe</option>
+                                <option value="tl">Filipino</option>
+                                <option value="fy">Frisia</option>
+                                <option value="gd">Gael Scotland</option>
+                                <option value="gl">Galicia</option>
+                                <option value="ka">George</option>
+                                <option value="gn">Guarani</option>
+                                <option value="gu">Gujarat</option>
+                                <option value="nl">Hà Lan</option>
+                                <option value="af">Hà Lan (Nam Phi)</option>
+                                <option value="ko">Hàn</option>
+                                <option value="ha">Hausa</option>
+                                <option value="haw">Hawaii</option>
+                                <option value="hi">Hindi</option>
+                                <option value="hmn">Hmong</option>
+                                <option value="hu">Hungary</option>
+                                <option value="el">Hy Lạp</option>
+                                <option value="is">Iceland</option>
+                                <option value="ig">Igbo</option>
+                                <option value="ilo">Ilocano</option>
+                                <option value="id">Indonesia</option>
+                                <option value="ga">Ireland</option>
+                                <option value="jw">Java</option>
+                                <option value="kn">Kannada</option>
+                                <option value="kk">Kazakh</option>
+                                <option value="km">Khmer</option>
+                                <option value="rw">Kinyarwanda</option>
+                                <option value="gom">Konkani</option>
+                                <option value="kri">Krio</option>
+                                <option value="ku">Kurd (Kurmanji)</option>
+                                <option value="ckb">Kurd (Sorani)</option>
+                                <option value="ky">Kyrgyz</option>
+                                <option value="lo">Lào</option>
+                                <option value="la">Latinh</option>
+                                <option value="lv">Latvia</option>
+                                <option value="ln">Lingala</option>
+                                <option value="lt">Litva</option>
+                                <option value="lg">Luganda</option>
+                                <option value="lb">Luxembourg</option>
+                                <option value="ms">Mã Lai</option>
+                                <option value="mk">Macedonia</option>
+                                <option value="mai">Maithili</option>
+                                <option value="mg">Malagasy</option>
+                                <option value="ml">Malayalam</option>
+                                <option value="mt">Malta</option>
+                                <option value="mi">Maori</option>
+                                <option value="mr">Marathi</option>
+                                <option value="mni-Mtei">Meiteilon (Manipuri)</option>
+                                <option value="lus">Mizo</option>
+                                <option value="mn">Mông Cổ</option>
+                                <option value="my">Myanmar</option>
+                                <option value="no">Na Uy</option>
+                                <option value="ne">Nepal</option>
+                                <option value="ru">Nga</option>
+                                <option value="ja">Nhật</option>
+                                <option value="or">Odia (Oriya)</option>
+                                <option value="om">Oromo</option>
+                                <option value="ps">Pashto</option>
+                                <option value="sa">Phạn</option>
+                                <option value="fr">Pháp</option>
+                                <option value="fi">Phần Lan</option>
+                                <option value="pa">Punjab</option>
+                                <option value="qu">Quechua</option>
+                                <option value="eo">Quốc tế ngữ</option>
+                                <option value="ro">Rumani</option>
+                                <option value="sm">Samoa</option>
+                                <option value="cs">Séc</option>
+                                <option value="nso">Sepedi</option>
+                                <option value="sr">Serbia</option>
+                                <option value="st">Sesotho</option>
+                                <option value="sn">Shona</option>
+                                <option value="sd">Sindhi</option>
+                                <option value="si">Sinhala</option>
+                                <option value="sk">Slovak</option>
+                                <option value="sl">Slovenia</option>
+                                <option value="so">Somali</option>
+                                <option value="su">Sunda</option>
+                                <option value="sw">Swahili</option>
+                                <option value="tg">Tajik</option>
+                                <option value="ta">Tamil</option>
+                                <option value="tt">Tatar</option>
+                                <option value="es">Tây Ban Nha</option>
+                                <option value="te">Telugu</option>
+                                <option value="th">Thái</option>
+                                <option value="tr">Thổ Nhĩ Kỳ</option>
+                                <option value="sv">Thụy Điển</option>
+                                <option value="ti">Tigrinya</option>
+                                <option value="zh-CN">Trung (Giản thể)</option>
+                                <option value="zh-TW">Trung (Phồn thể)</option>
+                                <option value="ts">Tsonga</option>
+                                <option value="tk">Turkmen</option>
+                                <option value="ak">Twi</option>
+                                <option value="uk">Ukraina</option>
+                                <option value="ur">Urdu</option>
+                                <option value="ug">Uyghur</option>
+                                <option value="uz">Uzbek</option>
+                                <option value="cy">Xứ Wales</option>
+                                <option value="it">Ý</option>
+                                <option value="yi">Yiddish</option>
+                                <option value="yo">Yoruba</option>
+                                <option value="zu">Zulu</option>
+                              </select>
+                            </div>
+                            Được hỗ trợ bởi{" "}
+                            <span style={{ whiteSpace: "nowrap" }}>
+                              <a
+                                className="VIpgJd-ZVi9od-l4eHX-hSRGPd"
+                                href="https://translate.google.com/"
+                                target="_blank"
+                              >
+                                <img
+                                  src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/googlelogo_color_42x16dp.png"
+                                  width="37px"
+                                  height="14px"
+                                  style={{ paddingRight: 3 }}
+                                  alt="Google Dịch"
+                                />
+                                Dịch
+                              </a>
+                            </span>
+                          </div>
+                        </div>{" "}
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="flex-col hide-for-medium flex-center">
+                    <ul className="nav nav-center nav-small  nav-divided">
+                      <li className="html custom html_topbar_left">
+                        <p className="head-qc">
+                          Hỗ trợ giá các gói dịch vụ <strong>lên tới 50%</strong>{" "}
+                          trong mùa dịch
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="flex-col hide-for-medium flex-right">
+                    <ul className="nav top-bar-nav nav-right nav-small  nav-divided">
+                      <li className="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
+                        <a
+                          href="https://adser.vn/#"
+                          aria-label="Search"
+                          className="is-small"
+                        >
+                          <i className="icon-search" />
+                        </a>
+                        <ul className="nav-dropdown nav-dropdown-default">
+                          <li className="header-search-form search-form html relative has-icon">
+                            <div className="header-search-form-wrapper">
+                              <div className="searchform-wrapper ux-search-box relative is-normal">
+                                <form
+                                  method="get"
+                                  className="searchform"
+                                  action="https://adser.vn/"
+                                  role="search"
+                                >
+                                  <div className="flex-row relative">
+                                    <div className="flex-col flex-grow">
+                                      <input
+                                        type="search"
+                                        className="search-field mb-0"
+                                        name="s"
+                                        defaultValue=""
+                                        id="s"
+                                        placeholder="Search…"
+                                        autoComplete="off"
+                                      />
+                                    </div>
+                                    <div className="flex-col">
+                                      <button
+                                        type="submit"
+                                        className="ux-search-submit submit-button secondary button icon mb-0"
+                                        aria-label="Submit"
+                                      >
+                                        <i className="icon-search" />{" "}
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <div className="live-search-results text-left z-top">
+                                    <div
+                                      className="autocomplete-suggestions"
+                                      style={{
+                                        position: "absolute",
+                                        display: "none",
+                                        maxHeight: 300,
+                                        zIndex: 9999
+                                      }}
+                                    />
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div id="masthead" className="header-main ">
+                <div
+                  className="header-inner flex-row container logo-left"
+                  role="navigation"
+                >
+                  <div id="logo" className="flex-col logo">
+                    <a
+                      href="https://adser.vn/"
+                      title="Adser.vn - Extension Hỗ Trợ ADS Thủ Facebook #1"
+                      rel="home"
+                    >
+                      <img
+                        width={1020}
+                        height={333}
+                        src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/LOGO-9-1.png"
+                        className="header_logo header-logo"
+                        alt="Adser.vn"
+                      />
+                      <img
+                        width={1020}
+                        height={333}
+                        src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/LOGO-9-1.png"
+                        className="header-logo-dark"
+                        alt="Adser.vn"
+                      />
+                    </a>
+                  </div>
+                  <div className="flex-col show-for-medium flex-left">
+                    <ul className="mobile-nav nav nav-left " />
+                  </div>
+                  <div
+                    className="flex-col hide-for-medium flex-left
+flex-grow"
+                  >
+                    <ul className="header-nav header-nav-main nav nav-left  nav-uppercase" />
+                  </div>
+                  <div className="flex-col hide-for-medium flex-right">
+                    <ul className="header-nav header-nav-main nav nav-right  nav-uppercase">
+                      <li
+                        id="menu-item-888"
+                        className="menu-item menu-item-type-custom menu-item-object-custom menu-item-888 menu-item-design-default"
+                      >
+                        <a
+                          href="https://adser.vn/ve-chung-toi/"
+                          className="nav-top-link"
+                        >
+                          Về chúng tôi
+                        </a>
+                      </li>
+                      <li
+                        id="menu-item-3829"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3829 menu-item-design-default"
+                      >
+                        <a
+                          href="https://adser.vn/adser-check/"
+                          className="nav-top-link"
+                        >
+                          Adser Check Pro<sup className="badge badge-danger">New</sup>
+                        </a>
+                      </li>
+                      <li
+                        id="menu-item-891"
+                        className="menu-item menu-item-type-custom menu-item-object-custom menu-item-891 menu-item-design-default"
+                      >
+                        <a
+                          href="https://adser.vn/tuyen-dung"
+                          className="nav-top-link"
+                        >
+                          Tuyển dụng
+                        </a>
+                      </li>
+                      <li
+                        id="menu-item-3885"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3885 menu-item-design-default"
+                      >
+                        <a href="https://adser.vn/lien-he/" className="nav-top-link">
+                          Liên hệ
+                        </a>
+                      </li>
+                      <li
+                        id="menu-item-3730"
+                        className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3730 menu-item-design-default"
+                      >
+                        <a
+                          href="https://adser.vn/category/tin-tuc/"
+                          className="nav-top-link"
+                        >
+                          Tin tức
+                        </a>
+                      </li>
+                      <li className="html header-button-1">
+                        <div className="header-button">
+                          <a
+                            href="https://app.adser.vn/"
+                            className="button plain"
+                            style={{ borderRadius: 99 }}
+                          >
+                            <span>Đăng Nhập Adser</span>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="flex-col show-for-medium flex-right">
+                    <ul className="mobile-nav nav nav-right ">
+                      <li className="nav-icon has-icon">
+                        <a
+                          href="https://adser.vn/#"
+                          data-open="#main-menu"
+                          data-pos="left"
+                          data-bg="main-menu-overlay"
+                          data-color=""
+                          className="is-small"
+                          aria-label="Menu"
+                          aria-controls="main-menu"
+                          aria-expanded="false"
+                        >
+                          <i className="icon-menu" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="container">
+                  <div className="top-divider full-width" />
+                </div>
+              </div>
+              <div className="header-bg-container fill">
+                <div className="header-bg-image fill" />
+                <div className="header-bg-color fill" />
+              </div>
+            </div>
+          </header>
+          <main id="main" className="">
+            <div id="content" role="main">
+              <section className="section home-sec-1" id="section_1701780938">
+                <div className="bg section-bg fill bg-fill  bg-loaded" />
+                <div className="section-content relative">
+                  <div className="row" id="row-1213981354" />
+                  <div className="row align-middle" id="row-1315514794">
+                    <div
+                      id="col-620324188"
+                      className="col img-banner show-for-small medium-6 small-12 large-6"
+                    >
+                      <div className="col-inner">
+                        <div
+                          className="img has-hover hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_499276999"
+                        >
+                          <div className="img-inner dark">
+                            <img
+
+                              decoding="async"
+                              width={1480}
+                              height={1510}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-1-shape-big.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/section-1-shape-big.png 1480w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-big-294x300.png 294w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-big-1004x1024.png 1004w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-big-768x784.png 768w"
+                              sizes="(max-width: 1480px) 100vw, 1480px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_499276999 {\n  width: 100%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-1 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_1298005976"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              decoding="async"
+                              width={967}
+                              height={388}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-1-shape-small-2.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-2.png 967w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-2-300x120.png 300w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-2-768x308.png 768w"
+                              sizes="(max-width: 967px) 100vw, 967px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1298005976 {\n  width: 75%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-2 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_275522966"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              decoding="async"
+                              width={672}
+                              height={809}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-1-shape-small-1.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-1.png 672w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-1-249x300.png 249w"
+                              sizes="(max-width: 672px) 100vw, 672px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_275522966 {\n  width: 55%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-3 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_1441985812"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={770}
+                              height={343}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-1-shape-small-3.png"
+                              className="attachment-large size-large"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-3.png 770w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-3-300x134.png 300w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-3-768x342.png 768w"
+                              sizes="(max-width: 770px) 100vw, 770px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1441985812 {\n  width: 60%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-4 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_389581211"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={898}
+                              height={387}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-1-shape-small-4.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-4.png 898w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-4-300x129.png 300w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-4-768x331.png 768w"
+                              sizes="(max-width: 898px) 100vw, 898px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_389581211 {\n  width: 70%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover show-for-small x md-x lg-x y md-y lg-y"
+                          id="image_1827086502"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={1066}
+                              height={1088}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/mau-slide-mobile.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/04/mau-slide-mobile.png 1066w, https://adser.vn/wp-content/uploads/2022/04/mau-slide-mobile-294x300.png 294w, https://adser.vn/wp-content/uploads/2022/04/mau-slide-mobile-1003x1024.png 1003w, https://adser.vn/wp-content/uploads/2022/04/mau-slide-mobile-768x784.png 768w"
+                              sizes="(max-width: 1066px) 100vw, 1066px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1827086502 {\n  width: 100%;\n}"
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="col-1033324704"
+                      className="col medium-6 small-12 large-6"
+                      data-animate="fadeInLeft"
+                      data-animated="true"
+                    >
+                      <div className="col-inner">
+                        <div id="text-1444454807" className="text sub-title">
+                          <p>
+                            <i className="fas fa-circle" /> BẠN ĐANG TÌM KIẾM
+                          </p>
+                        </div>
+                        <div id="text-2540642839" className="text vct-title">
+                          <h2>
+                            <span>GIẢI PHÁP CHO</span>
+                          </h2>
+                          <h2 className="run">
+                            <span
+                              className="txt-rotate"
+                              data-rotate='[ "Facebook Adsertiser", "Tối ưu hiệu suất Ads", "Digital Marketing", "Quản lí tài khoản"]'
+                            >
+                              <span className="wrap">Digita</span>
+                            </span>
+                          </h2>
+                        </div>
+                        <div id="text-2434312235" className="text home-short-des">
+                          <p>
+                            Với sự thấu hiểu về Quảng Cáo và tận tâm về nhân lực,
+                            Adser tự hào mang đến những giải pháp toàn diện cho khách
+                            hàng
+                          </p>
+                        </div>
+                        <a
+                          rel="noopener noreferrer"
+                          href="https://chrome.google.com/webstore/detail/adser-check-pro/nmmdnkjpjdbdejdlokihjkjohplpbhod?hl=vi"
+                          target="_blank"
+                          className="button primary lowercase home-vct"
+                          style={{ borderRadius: 99 }}
+                        >
+                          <span>Tải Xuống Ngay</span>
+                          <i className="icon-google-plus" aria-hidden="true" />
+                        </a>
+                        <a
+                          rel="noopener noreferrer"
+                          href="https://adser.vn/ve-chung-toi/"
+                          target="_blank"
+                          className="button primary is-outline lowercase home-prf"
+                          style={{ borderRadius: 99 }}
+                        >
+                          <span>Về Chúng Tôi</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      id="col-129401832"
+                      className="col img-banner hide-for-small medium-6 small-12 large-6"
+                      data-animate="fadeInRight"
+                      data-animated="true"
+                    >
+                      <div className="col-inner">
+                        <div
+                          className="img has-hover hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_1145112473"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={1481}
+                              height={1510}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/f3.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2023/06/f3.png 1481w, https://adser.vn/wp-content/uploads/2023/06/f3-294x300.png 294w, https://adser.vn/wp-content/uploads/2023/06/f3-1004x1024.png 1004w, https://adser.vn/wp-content/uploads/2023/06/f3-768x783.png 768w"
+                              sizes="(max-width: 1481px) 100vw, 1481px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1145112473 {\n  width: 100%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-1 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_129591168"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              decoding="async"
+                              width={967}
+                              height={388}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-1-shape-small-2.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-2.png 967w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-2-300x120.png 300w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-2-768x308.png 768w"
+                              sizes="(max-width: 967px) 100vw, 967px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_129591168 {\n  width: 75%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-2 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_968808887"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={672}
+                              height={809}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/bg-22-1.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2023/06/bg-22-1.png 672w, https://adser.vn/wp-content/uploads/2023/06/bg-22-1-249x300.png 249w"
+                              sizes="(max-width: 672px) 100vw, 672px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_968808887 {\n  width: 51%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-3 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_1851438526"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={770}
+                              height={344}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-1-shape-small-3(1).png"
+                              className="attachment-large size-large"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/04/section-1-shape-small-3.png 770w, https://adser.vn/wp-content/uploads/2022/04/section-1-shape-small-3-300x134.png 300w, https://adser.vn/wp-content/uploads/2022/04/section-1-shape-small-3-768x343.png 768w"
+                              sizes="(max-width: 770px) 100vw, 770px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1851438526 {\n  width: 60%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-4 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_1317595964"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={898}
+                              height={387}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-1-shape-small-4.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-4.png 898w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-4-300x129.png 300w, https://adser.vn/wp-content/uploads/2022/03/section-1-shape-small-4-768x331.png 768w"
+                              sizes="(max-width: 898px) 100vw, 898px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1317595964 {\n  width: 65%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover show-for-small x md-x lg-x y md-y lg-y"
+                          id="image_585475771"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={600}
+                              height={565}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/responsive-section-1-shape-big.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/responsive-section-1-shape-big.png 600w, https://adser.vn/wp-content/uploads/2022/03/responsive-section-1-shape-big-300x283.png 300w"
+                              sizes="(max-width: 600px) 100vw, 600px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_585475771 {\n  width: 100%;\n}"
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <style
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      "#section_1701780938 {\n  padding-top: 30px;\n  padding-bottom: 30px;\n}\n#section_1701780938 .ux-shape-divider--top svg {\n  height: 150px;\n  --divider-top-width: 100%;\n}\n#section_1701780938 .ux-shape-divider--bottom svg {\n  height: 150px;\n  --divider-width: 100%;\n}"
+                  }}
+                />
+              </section>
+              <section className="section" id="section_475543100">
+                <div className="bg section-bg fill bg-fill bg-loaded" />
+                <div className="section-content relative">
+                  <div id="text-1290484646" className="text text-title">
+                    <h2>
+                      Tại sao nên sử dụng công cụ{" "}
+                      <span style={{ color: "#0072ff" }}>
+                        <strong>Adser?</strong>
+                      </span>
+                    </h2>
+                    <style
+                      dangerouslySetInnerHTML={{
+                        __html:
+                          "#text-1290484646 {\n  text-align: center;\n  color: rgb(68, 152, 255);\n}\n#text-1290484646 > * {\n  color: rgb(68, 152, 255);\n}"
+                      }}
+                    />
+                  </div>
+                  <div
+                    id="gap-271228205"
+                    className="gap-element clearfix"
+                    style={{ display: "block", height: "auto" }}
+                  >
+                    <style
+                      dangerouslySetInnerHTML={{
+                        __html: "#gap-271228205 {\n  padding-top: 30px;\n}"
+                      }}
+                    />
+                  </div>
+                  <div className="row" id="row-77078631">
+                    <div
+                      id="col-1466499296"
+                      className="col medium-4 small-12 large-4"
+                    >
+                      <div className="col-inner text-center">
+                        <div
+                          className="img has-hover x md-x lg-x y md-y lg-y"
+                          id="image_713850853"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={775}
+                              height={521}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon-intro-1.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/icon-intro-1.png 775w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-1-300x202.png 300w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-1-768x516.png 768w"
+                              sizes="(max-width: 775px) 100vw, 775px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_713850853 {\n  width: 35%;\n}"
+                            }}
+                          />
+                        </div>
+                        <h4>
+                          Tính năng <strong>Toàn diện</strong>
+                        </h4>
+                        <p>
+                          Toàn bộ tính năng được thiết kế thông minh, bố cục sắp xếp
+                          hợp lý mang đến trải nghiệm UI/UX tốt nhất cho khách truy
+                          cập.
+                        </p>
+                      </div>
+                    </div>
+                    <div id="col-506212436" className="col medium-4 small-12 large-4">
+                      <div className="col-inner text-center">
+                        <div
+                          className="img has-hover x md-x lg-x y md-y lg-y"
+                          id="image_1723608663"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={980}
+                              height={519}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon-intro-6.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/icon-intro-6.png 980w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-6-300x159.png 300w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-6-768x407.png 768w"
+                              sizes="(max-width: 980px) 100vw, 980px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1723608663 {\n  width: 35%;\n}"
+                            }}
+                          />
+                        </div>
+                        <h4>
+                          <strong>Bảo mật thông tinh</strong>
+                        </h4>
+                        <p>
+                          Thông tin khách hàng sử dụng được mã hoá và bảo mật hoàn
+                          toàn trên hệ thống của Adser.Vn. Khách hàng có thể thoải mái
+                          chọn sử dụng
+                        </p>
+                        <div
+                          id="gtx-trans"
+                          style={{
+                            position: "absolute",
+                            left: "-9px",
+                            top: "78.8906px"
+                          }}
+                        >
+                          <div className="gtx-trans-icon">&nbsp;</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="col-193153822" className="col medium-4 small-12 large-4">
+                      <div className="col-inner text-center">
+                        <div
+                          className="img has-hover x md-x lg-x y md-y lg-y"
+                          id="image_605969555"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={980}
+                              height={519}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon-intro-5.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/icon-intro-5.png 980w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-5-300x159.png 300w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-5-768x407.png 768w"
+                              sizes="(max-width: 980px) 100vw, 980px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_605969555 {\n  width: 35%;\n}"
+                            }}
+                          />
+                        </div>
+                        <h4>Luôn Cập Nhật Mới</h4>
+                        <p>
+                          Đội ngũ kĩ thuật luôn theo dõi và update các tính năng theo
+                          kịp Facebook hiện tại. Hỗ trợ tối đa cho các bạn làm quảng
+                          cáo.
+                        </p>
+                        <div
+                          id="gtx-trans"
+                          style={{ position: "absolute", left: 371, top: "100.5px" }}
+                        >
+                          <div className="gtx-trans-icon">&nbsp;</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="col-359713881" className="col medium-4 small-12 large-4">
+                      <div className="col-inner text-center">
+                        <div
+                          className="img has-hover x md-x lg-x y md-y lg-y"
+                          id="image_1519680588"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={980}
+                              height={519}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon-intro-4.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/icon-intro-4.png 980w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-4-300x159.png 300w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-4-768x407.png 768w"
+                              sizes="(max-width: 980px) 100vw, 980px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1519680588 {\n  width: 35%;\n}"
+                            }}
+                          />
+                        </div>
+                        <h4>
+                          Mang lại sự <strong>Tiện lợi</strong>
+                        </h4>
+                        <p>
+                          Tất cả được gói gọn trong 1 trang Landing Page, từ thông tin
+                          các TKQC cho đến các tính năng share, quản lí tài khoản,
+                          Pixel, …
+                        </p>
+                      </div>
+                    </div>
+                    <div id="col-693403081" className="col medium-4 small-12 large-4">
+                      <div className="col-inner text-center">
+                        <div
+                          className="img has-hover x md-x lg-x y md-y lg-y"
+                          id="image_460358747"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={845}
+                              height={576}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon-intro-2.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/icon-intro-2.png 845w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-2-300x204.png 300w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-2-768x524.png 768w"
+                              sizes="(max-width: 845px) 100vw, 845px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_460358747 {\n  width: 35%;\n}"
+                            }}
+                          />
+                        </div>
+                        <h4>
+                          Thể hiện sự <strong>Chuyên nghiệp</strong>
+                        </h4>
+                        <p>
+                          Thay vì tốn công sức để quản lí từng tài khoản và thao tác
+                          một, Adser sẽ giúp bạn quản lí vận hành All In One chỉ trong
+                          cùng giao diện.
+                        </p>
+                        <div
+                          id="gtx-trans"
+                          style={{
+                            position: "absolute",
+                            left: 373,
+                            top: "33.8906px"
+                          }}
+                        >
+                          <div className="gtx-trans-icon">&nbsp;</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="col-1242745818"
+                      className="col medium-4 small-12 large-4"
+                    >
+                      <div className="col-inner text-center">
+                        <div
+                          className="img has-hover x md-x lg-x y md-y lg-y"
+                          id="image_817013417"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={980}
+                              height={684}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon-intro-3.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/icon-intro-3.png 980w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-3-300x209.png 300w, https://adser.vn/wp-content/uploads/2022/03/icon-intro-3-768x536.png 768w"
+                              sizes="(max-width: 980px) 100vw, 980px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_817013417 {\n  width: 35%;\n}"
+                            }}
+                          />
+                        </div>
+                        <h4>
+                          Chi phí <strong>Tiết kiệm</strong>
+                        </h4>
+                        <p>
+                          Không cần quá nhiều chi phí để sử dụng công cụ, đa phần
+                          những tính năng từ Adser đều miễn phí cho người dùng trải
+                          nghiệm.
+                        </p>
+                        <div
+                          id="gtx-trans"
+                          style={{ position: "absolute", left: 452, top: "100.5px" }}
+                        >
+                          <div className="gtx-trans-icon">&nbsp;</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row" id="row-747024535">
+                    <div id="col-583054337" className="col small-12 large-12">
+                      <div className="col-inner text-center">
+                        <a
+                          rel="noopener noreferrer dofollow"
+                          href="https://chrome.google.com/webstore/detail/adser-check-pro/nmmdnkjpjdbdejdlokihjkjohplpbhod?hl=vi"
+                          target="_blank"
+                          className="button primary lowercase tkl-btn"
+                          style={{ borderRadius: 99 }}
+                        >
+                          <i className="icon-angle-right" aria-hidden="true" />{" "}
+                          <span>Sử Dụng Ngay</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <style
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      "#section_475543100 {\n  padding-top: 30px;\n  padding-bottom: 30px;\n}\n#section_475543100 .ux-shape-divider--top svg {\n  height: 150px;\n  --divider-top-width: 100%;\n}\n#section_475543100 .ux-shape-divider--bottom svg {\n  height: 150px;\n  --divider-width: 100%;\n}"
+                  }}
+                />
+              </section>
+              <section className="section home-sec-2" id="section_475882636">
+                <div className="bg section-bg fill bg-fill bg-loaded" />
+                <div className="section-content relative">
+                  <div className="row" id="row-473588691">
+                    <div
+                      id="col-433355058"
+                      className="col medium-6 small-12 large-6"
+                      data-animate="fadeInLeft"
+                      data-animated="true"
+                    >
+                      <div className="col-inner">
+                        <div id="text-2953795293" className="text sub-title">
+                          <p>
+                            <i className="fas fa-circle" /> GIẢI PHÁP QUẢN LÍ
+                          </p>
+                          <div
+                            id="gtx-trans"
+                            style={{
+                              position: "absolute",
+                              left: 151,
+                              top: "33.3906px"
+                            }}
+                          >
+                            <div className="gtx-trans-icon">&nbsp;</div>
+                          </div>
+                        </div>
+                        <div id="text-2422978992" className="text text-title">
+                          <h2 style={{ marginBottom: 15 }}>ADSER CHECK PRO</h2>
+                          <p className="desc">
+                            <span style={{ fontSize: "105%" }}>
+                              <strong>
+                                Tiện ích tối ưu hiệu quả quản lí tài khoản quảng cáo
+                              </strong>
+                            </span>
+                          </p>
+                          <div
+                            id="gtx-trans"
+                            style={{
+                              position: "absolute",
+                              left: 283,
+                              top: "89.6719px"
+                            }}
+                          >
+                            <div className="gtx-trans-icon">&nbsp;</div>
+                          </div>
+                        </div>
+                        <p>
+                          Adser chuyên sâu về lĩnh vực Facebook Advertiser, với những
+                          giải pháp tối ưu, quản lí tài khoản chuyên sâu, kinh nghiệm
+                          lâu năm và sự nhiệt huyết Adser đã đáp ứng được những yêu
+                          cầu khắt khe nhất của khách hàng và được các doanh nghiệp
+                          lựa chọn làm đối tác chiến lược.
+                        </p>
+                        <div
+                          id="gtx-trans"
+                          style={{ position: "absolute", left: 453, top: 10 }}
+                        >
+                          <div className="gtx-trans-icon">&nbsp;</div>
+                        </div>
+                        <a
+                          href="https://adser.vn/lien-he/"
+                          target="_self"
+                          className="button primary lowercase home-vct"
+                          style={{ borderRadius: 99 }}
+                        >
+                          <span>Dùng Thử Miễn Phí</span>
+                          <i className="icon-user" aria-hidden="true" />
+                        </a>
+                        <ul>
+                          <li>
+                            <i className="fas fa-check-circle" /> Xoá quản trị viên ẩn
+                            TKQC.
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" />
+                            &nbsp;Kiểm tra tổng quan trạng thái của tài khoản.
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" />
+                            &nbsp;Thao tác quản lí tối ưu hàng loạt tài khoản.
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" />
+                            &nbsp;Bảo mật tài khoản quảng cáo của bạn.
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> Xoá quản trị viên BM
+                            trước 7 ngày
+                          </li>
+                        </ul>
+                      </div>
+                      <style
+                        dangerouslySetInnerHTML={{
+                          __html:
+                            "#col-433355058 > .col-inner {\n  padding: 10px 0px 0px 0px;\n}"
+                        }}
+                      />
+                    </div>
+                    <div
+                      id="col-2124478935"
+                      className="col img-banner medium-6 small-12 large-6"
+                      data-animate="fadeInRight"
+                      data-animated="true"
+                    >
+                      <div className="col-inner">
+                        <div
+                          className="img has-hover hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_560636437"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={555}
+                              height={530}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/banner-img.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/banner-img.png 555w, https://adser.vn/wp-content/uploads/2022/03/banner-img-300x286.png 300w"
+                              sizes="(max-width: 555px) 100vw, 555px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_560636437 {\n  width: 100%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-5 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_660622468"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={966}
+                              height={388}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-2-shape-small-3.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/section-2-shape-small-3.png 966w, https://adser.vn/wp-content/uploads/2022/03/section-2-shape-small-3-300x120.png 300w, https://adser.vn/wp-content/uploads/2022/03/section-2-shape-small-3-768x308.png 768w"
+                              sizes="(max-width: 966px) 100vw, 966px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_660622468 {\n  width: 55%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover shape-6 img-absolute hide-for-small x md-x lg-x y md-y lg-y"
+                          id="image_1574113580"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={897}
+                              height={387}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/section-2-shape-small-4.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/03/section-2-shape-small-4.png 897w, https://adser.vn/wp-content/uploads/2022/03/section-2-shape-small-4-300x129.png 300w, https://adser.vn/wp-content/uploads/2022/03/section-2-shape-small-4-768x331.png 768w"
+                              sizes="(max-width: 897px) 100vw, 897px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1574113580 {\n  width: 65%;\n}"
+                            }}
+                          />
+                        </div>
+                        <div
+                          className="img has-hover show-for-small x md-x lg-x y md-y lg-y"
+                          id="image_1582829313"
+                        >
+                          <div className="img-inner dark">
+                            <img
+                              loading="lazy"
+                              decoding="async"
+                              width={1161}
+                              height={1043}
+                              src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/mau-ve-chung-toi-tc-copy.png"
+                              className="attachment-original size-original"
+                              alt=""
+                              srcSet="https://adser.vn/wp-content/uploads/2022/04/mau-ve-chung-toi-tc-copy.png 1161w, https://adser.vn/wp-content/uploads/2022/04/mau-ve-chung-toi-tc-copy-300x270.png 300w, https://adser.vn/wp-content/uploads/2022/04/mau-ve-chung-toi-tc-copy-1024x920.png 1024w, https://adser.vn/wp-content/uploads/2022/04/mau-ve-chung-toi-tc-copy-768x690.png 768w"
+                              sizes="(max-width: 1161px) 100vw, 1161px"
+                            />
+                          </div>
+                          <style
+                            dangerouslySetInnerHTML={{
+                              __html: "#image_1582829313 {\n  width: 100%;\n}"
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <style
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      "#section_475882636 {\n  padding-top: 0px;\n  padding-bottom: 0px;\n}\n#section_475882636 .ux-shape-divider--top svg {\n  height: 150px;\n  --divider-top-width: 100%;\n}\n#section_475882636 .ux-shape-divider--bottom svg {\n  height: 150px;\n  --divider-width: 100%;\n}"
+                  }}
+                />
+              </section>
+
+
+
+
+            </div>
+          </main>
+          <footer id="footer" className="footer-wrapper">
+            <section className="section t-footer" id="section_714091709">
+              <div className="bg section-bg fill bg-fill  bg-loaded" />
+              <div className="section-content relative">
+                <div className="row row-small hide-for-small" id="row-1087980192">
+                  <div id="col-1941627228" className="col medium-3 small-6 large-3">
+                    <div className="col-inner">
+                      <div
+                        className="img has-hover x md-x lg-x y md-y lg-y"
+                        id="image_915649018"
+                      >
+                        <div className="img-inner dark">
+                          <img
+                            width={1022}
+                            height={334}
+                            src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/LOGO-11-1.png"
+                            className="attachment-original size-original"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            srcSet="https://adser.vn/wp-content/uploads/2023/06/LOGO-11-1.png 1022w, https://adser.vn/wp-content/uploads/2023/06/LOGO-11-1-300x98.png 300w, https://adser.vn/wp-content/uploads/2023/06/LOGO-11-1-768x251.png 768w"
+                            sizes="(max-width: 1022px) 100vw, 1022px"
+                          />
+                        </div>
+                        <style
+                          dangerouslySetInnerHTML={{
+                            __html: "#image_915649018 {\n  width: 55%;\n}"
+                          }}
+                        />
+                      </div>
+                      <div id="text-2766070991" className="text">
+                        <p>
+                          <strong>Adser.vn</strong> cung cấp giải pháp quản lí tài
+                          nguyên Facebook tổng thể, toàn diện giúp doanh nghiệp xây
+                          dựng một thương hiệu mạnh và bán hàng hiệu quả trên FB
+                          Platform.
+                        </p>
+                        <div
+                          id="gtx-trans"
+                          style={{ position: "absolute", left: 480, top: 10 }}
+                        >
+                          <div className="gtx-trans-icon">&nbsp;</div>
+                        </div>
+                        <style
+                          dangerouslySetInnerHTML={{
+                            __html:
+                              "#text-2766070991 {\n  color: rgb(255, 255, 255);\n}\n#text-2766070991 > * {\n  color: rgb(255, 255, 255);\n}"
+                          }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div id="col-183741932" className="col medium-3 small-6 large-3">
+                    <div className="col-inner">
+                      <div id="text-2978506409" className="text">
+                        <h3>LIÊN KẾT NHANH</h3>
+                        <ul>
+                          <li>
+                            <a href="https://adser.vn/ve-chung-toi/">Về chúng tôi</a>
+                          </li>
+                          <li>
+                            <a href="https://adser.vn/tuyen-dung/">Tuyển dụng</a>
+                          </li>
+                          <li>
+                            <a href="https://adser.vn/ho-tro-khach-hang/">
+                              Hỗ trợ khách hàng
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://adser.vn/du-an/">Dự án tiêu biểu</a>
+                          </li>
+                          <li>
+                            <a href="https://adser.vn/blog/">Blog và Tin tức</a>
+                          </li>
+                          <li>
+                            <a href="https://adser.vn/ho-tro-khach-hang/">
+                              Hỗ trợ khách hàng
+                            </a>
+                          </li>
+                        </ul>
+                        <style
+                          dangerouslySetInnerHTML={{
+                            __html:
+                              "#text-2978506409 {\n  color: rgb(255, 255, 255);\n}\n#text-2978506409 > * {\n  color: rgb(255, 255, 255);\n}"
+                          }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div id="col-47048979" className="col medium-3 small-6 large-3">
+                    <div className="col-inner">
+                      <div id="text-506517798" className="text">
+                        <h3>DỊCH VỤ CỦA ADSER</h3>
+                        <ul>
+                          <li>Cho thuê tài khoản Agency</li>
+                          <li>Shop Dịch Vụ Tài Nguyên</li>
+                          <li>Phần mềm về bán hàng</li>
+                          <li>Thiết kế landing page</li>
+                          <li>Dịch vụ SEO tổng thể</li>
+                          <li>Phòng Marketing thuê ngoài</li>
+                        </ul>
+                        <div
+                          id="gtx-trans"
+                          style={{
+                            position: "absolute",
+                            left: 255,
+                            top: "132.766px"
+                          }}
+                        >
+                          <div className="gtx-trans-icon">&nbsp;</div>
+                        </div>
+                        <style
+                          dangerouslySetInnerHTML={{
+                            __html:
+                              "#text-506517798 {\n  color: rgb(255, 255, 255);\n}\n#text-506517798 > * {\n  color: rgb(255, 255, 255);\n}"
+                          }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="col-777198167"
+                    className="col foot-tt medium-3 small-6 large-3"
+                  >
+                    <div className="col-inner">
+                      <div id="text-4016739378" className="text">
+                        <h3>THÔNG TIN LIÊN HỆ</h3>
+                        <style
+                          dangerouslySetInnerHTML={{
+                            __html:
+                              "#text-4016739378 {\n  color: rgb(255, 255, 255);\n}\n#text-4016739378 > * {\n  color: rgb(255, 255, 255);\n}"
+                          }}
+                        />
+                      </div>
+                      <div className="row row-collapse" id="row-1077378498">
+                        <div
+                          id="col-415216190"
+                          className="col medium-2 small-2 large-2"
+                        >
+                          <div className="col-inner text-center">
+                            <div id="text-3071337137" className="text">
+                              <i className="fas fa-map-marker-alt" />
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-3071337137 {\n  color: rgb(255, 255, 255);\n}\n#text-3071337137 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="col-633715720"
+                          className="col medium-10 small-10 large-10"
+                        >
+                          <div className="col-inner">
+                            <div id="text-3942979800" className="text">
+                              <p>T10 Times city, Vinh Tuy, Hai Ba Trung, Ha Noi</p>
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-3942979800 {\n  color: rgb(255, 255, 255);\n}\n#text-3942979800 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row row-collapse" id="row-1325804731">
+                        <div
+                          id="col-1107147692"
+                          className="col medium-2 small-2 large-2"
+                        >
+                          <div className="col-inner text-center">
+                            <div id="text-4129779493" className="text">
+                              <i className="fas fa-phone-alt" />
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-4129779493 {\n  color: rgb(255, 255, 255);\n}\n#text-4129779493 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="col-1908213049"
+                          className="col medium-10 small-10 large-10"
+                        >
+                          <div className="col-inner">
+                            <div id="text-4199379615" className="text">
+                              <p>0969.56.57.44</p>
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-4199379615 {\n  color: rgb(255, 255, 255);\n}\n#text-4199379615 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row row-collapse" id="row-389869128">
+                        <div
+                          id="col-1726334291"
+                          className="col medium-2 small-2 large-2"
+                        >
+                          <div className="col-inner text-center">
+                            <div id="text-743001925" className="text">
+                              <i className="fas fa-envelope" />
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-743001925 {\n  color: rgb(255, 255, 255);\n}\n#text-743001925 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="col-85176037"
+                          className="col medium-10 small-10 large-10"
+                        >
+                          <div className="col-inner">
+                            <div id="text-4272362232" className="text">
+                              <p>contact@adser.vn</p>
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-4272362232 {\n  color: rgb(255, 255, 255);\n}\n#text-4272362232 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row footer-mb show-for-small" id="row-1070495102">
+                  <div id="col-1178891649" className="col medium-3 small-12 large-3">
+                    <div className="col-inner">
+                      <div
+                        className="img has-hover x md-x lg-x y md-y lg-y"
+                        id="image_993961914"
+                      >
+                        <div className="img-inner dark">
+                          <img
+                            width={1022}
+                            height={334}
+                            src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/LOGO-9-1.png"
+                            className="attachment-original size-original"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            srcSet="https://adser.vn/wp-content/uploads/2023/06/LOGO-9-1.png 1022w, https://adser.vn/wp-content/uploads/2023/06/LOGO-9-1-300x98.png 300w, https://adser.vn/wp-content/uploads/2023/06/LOGO-9-1-768x251.png 768w"
+                            sizes="(max-width: 1022px) 100vw, 1022px"
+                          />
+                        </div>
+                        <style
+                          dangerouslySetInnerHTML={{
+                            __html:
+                              "#image_993961914 {\n  width: 43%;\n}\n@media (min-width:550px) {\n  #image_993961914 {\n    width: 55%;\n  }\n}"
+                          }}
+                        />
+                      </div>
+                      <div className="row row-collapse col-phone" id="row-1793224614">
+                        <div
+                          id="col-1728181997"
+                          className="col medium-2 small-2 large-2"
+                        >
+                          <div className="col-inner text-center">
+                            <div id="text-1589215913" className="text">
+                              <i className="fas fa-phone-alt" />
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-1589215913 {\n  color: rgb(255, 255, 255);\n}\n#text-1589215913 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="col-1245689830"
+                          className="col medium-10 small-10 large-10"
+                        >
+                          <div className="col-inner">
+                            <div id="text-890090101" className="text">
+                              <p>
+                                <span>Hotline</span>
+                                <br />
+                                0969.56.57.44
+                              </p>
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-890090101 {\n  color: rgb(255, 255, 255);\n}\n#text-890090101 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row row-collapse" id="row-1405645440">
+                        <div
+                          id="col-533028889"
+                          className="col medium-2 small-2 large-2"
+                        >
+                          <div className="col-inner text-center">
+                            <div id="text-3282089240" className="text">
+                              <i className="fas fa-envelope" />
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-3282089240 {\n  color: rgb(255, 255, 255);\n}\n#text-3282089240 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="col-211675445"
+                          className="col medium-10 small-10 large-10"
+                        >
+                          <div className="col-inner">
+                            <div id="text-864339629" className="text">
+                              <p>
+                                Email
+                                <br />
+                                contact@adser.vn
+                              </p>
+                              <div
+                                id="gtx-trans"
+                                style={{
+                                  position: "absolute",
+                                  left: "-5px",
+                                  top: 10
+                                }}
+                              >
+                                <div className="gtx-trans-icon">&nbsp;</div>
+                              </div>
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-864339629 {\n  color: rgb(255, 255, 255);\n}\n#text-864339629 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="col-775482217" className="col medium-3 small-12 large-3">
+                    <div className="col-inner">
+                      <div className="accordion">
+                        <div id="accordion-3701504038" className="accordion-item">
+                          <a
+                            id="accordion-3701504038-label"
+                            href="https://adser.vn/#"
+                            className="accordion-title plain"
+                            aria-expanded="false"
+                            aria-controls="accordion-3701504038-content"
+                          >
+                            <button className="toggle" aria-label="Toggle">
+                              <i className="icon-angle-down" />
+                            </button>
+                            <span>Địa chỉ</span>
+                          </a>
+                          <div
+                            id="accordion-3701504038-content"
+                            className="accordion-inner"
+                            aria-labelledby="accordion-3701504038-label"
+                          >
+                            <div id="text-19432261" className="text">
+                              <div id="row-1504921051" className="row row-collapse">
+                                <div
+                                  id="col-797027922"
+                                  className="col medium-10 small-10 large-10"
+                                >
+                                  <div className="col-inner">
+                                    <div id="text-3949143271" className="text">
+                                      <p>
+                                        T10 Times city, Vinh Tuy, Hai Ba Trung, Ha Noi
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-19432261 {\n  color: rgb(255, 255, 255);\n}\n#text-19432261 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div id="accordion-393763221" className="accordion-item">
+                          <a
+                            id="accordion-393763221-label"
+                            href="https://adser.vn/#"
+                            className="accordion-title plain"
+                            aria-expanded="false"
+                            aria-controls="accordion-393763221-content"
+                          >
+                            <button className="toggle" aria-label="Toggle">
+                              <i className="icon-angle-down" />
+                            </button>
+                            <span>Liên kết nhanh</span>
+                          </a>
+                          <div
+                            id="accordion-393763221-content"
+                            className="accordion-inner"
+                            aria-labelledby="accordion-393763221-label"
+                          >
+                            <div id="text-2739540173" className="text">
+                              <ul>
+                                <li>Chính sách sử dụng</li>
+                                <li>Chính sách Cookie</li>
+                                <li>Chính sách bảo mật</li>
+                                <li>Điều khoản dịch vụ</li>
+                                <li>Miễn trừ trách nhiệm</li>
+                                <li>Chính sách Affiliate</li>
+                              </ul>
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-2739540173 {\n  color: rgb(255, 255, 255);\n}\n#text-2739540173 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div id="accordion-2318111000" className="accordion-item">
+                          <a
+                            id="accordion-2318111000-label"
+                            href="https://adser.vn/#"
+                            className="accordion-title plain"
+                            aria-expanded="false"
+                            aria-controls="accordion-2318111000-content"
+                          >
+                            <button className="toggle" aria-label="Toggle">
+                              <i className="icon-angle-down" />
+                            </button>
+                            <span>Dịch vụ của Adser</span>
+                          </a>
+                          <div
+                            id="accordion-2318111000-content"
+                            className="accordion-inner"
+                            aria-labelledby="accordion-2318111000-label"
+                          >
+                            <div id="text-1130486334" className="text">
+                              <ul>
+                                <li>Cho thuê tài khoản Agency</li>
+                                <li>Shop Dịch Vụ Tài Nguyên</li>
+                                <li>Phần mềm về bán hàng</li>
+                                <li>Thiết kế landing page</li>
+                                <li>Dịch vụ SEO tổng thể</li>
+                                <li>Phòng Marketing ngoài</li>
+                              </ul>
+                              <style
+                                dangerouslySetInnerHTML={{
+                                  __html:
+                                    "#text-1130486334 {\n  color: rgb(255, 255, 255);\n}\n#text-1130486334 > * {\n  color: rgb(255, 255, 255);\n}"
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div id="accordion-1701262317" className="accordion-item">
+                          <a
+                            id="accordion-1701262317-label"
+                            href="https://adser.vn/#"
+                            className="accordion-title plain"
+                            aria-expanded="false"
+                            aria-controls="accordion-1701262317-content"
+                          >
+                            <button className="toggle" aria-label="Toggle">
+                              <i className="icon-angle-down" />
+                            </button>
+                            <span>Accordion Panel</span>
+                          </a>
+                          <div
+                            id="accordion-1701262317-content"
+                            className="accordion-inner"
+                            aria-labelledby="accordion-1701262317-label"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <style
+                dangerouslySetInnerHTML={{
+                  __html:
+                    "#section_714091709 {\n  padding-top: 30px;\n  padding-bottom: 30px;\n}\n#section_714091709 .ux-shape-divider--top svg {\n  height: 150px;\n  --divider-top-width: 100%;\n}\n#section_714091709 .ux-shape-divider--bottom svg {\n  height: 150px;\n  --divider-width: 100%;\n}"
+                }}
               />
+            </section>
+            <div className="absolute-footer dark medium-text-center text-center">
+              <div className="container clearfix">
+                <div className="footer-primary pull-left">
+                  <div className="copyright-footer">
+                    Design by 2023 © <strong>Giao diện web đẹp</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              href="https://adser.vn/#top"
+              className="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle active"
+              id="top-link"
+              aria-label="Go to top"
+            >
+              <i className="icon-angle-up" />
             </a>
+            <div className="shape16">
+              <img
+                src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/bg-effect.png"
+                alt="img-effect"
+              />
+            </div>
+          </footer>
+        </div>
+        <div id="main-menu" className="mobile-sidebar no-scrollbar mfp-hide">
+          <div className="sidebar-menu no-scrollbar ">
+            <ul className="nav nav-sidebar nav-vertical nav-uppercase" data-tab={1}>
+              <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-888">
+                <a href="https://adser.vn/ve-chung-toi/">Về chúng tôi</a>
+              </li>
+              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3829">
+                <a href="https://adser.vn/adser-check/">
+                  Adser Check Pro<sup className="badge badge-danger">New</sup>
+                </a>
+              </li>
+              <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-891">
+                <a href="https://adser.vn/tuyen-dung">Tuyển dụng</a>
+              </li>
+              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3885">
+                <a href="https://adser.vn/lien-he/">Liên hệ</a>
+              </li>
+              <li className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3730">
+                <a href="https://adser.vn/category/tin-tuc/">Tin tức</a>
+              </li>
+            </ul>
           </div>
         </div>
+        <style
+          type="text/css"
+          dangerouslySetInnerHTML={{
+            __html:
+              "@media (max-width: 1024px){\n                    .wp-bottom-menu{\n                        display:flex;\n                    }\n                    .wp-bottom-menu-search-form-wrapper{\n                        display: block;\n                    }\n                }\n            \n            :root{\n                --wpbottommenu-font-size: 12px;\n                --wpbottommenu-icon-size: 24px;\n                --wpbottommenu-text-color: #555555;\n                --wpbottommenu-h-text-color: #000000;\n                --wpbottommenu-icon-color: #555555;\n                --wpbottommenu-h-icon-color: #000000;\n                --wpbottommenu-bgcolor: #ffffff;\n                --wpbottommenu-zindex: 9999;\n                --wpbottommenu-cart-count-bgcolor: #ff0000;\n                --wpbottommenu-wrapper-padding: 10px 0;\n            }"
+          }}
+        />
+        <div className="wp-bottom-menu" id="wp-bottom-menu">
+          <a href="https://adser.vn/" className="wp-bottom-menu-item active active">
+            <div className="wp-bottom-menu-icon-wrapper">
+              <i className="wp-bottom-menu-item-icons fa " />
+            </div>
+            <span />
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1F3jdqm-moMyDwOhWOSZqOz_B6hoA9Re7/view"
+            className="wp-bottom-menu-item"
+          >
+            <div className="wp-bottom-menu-icon-wrapper">
+              <i className="wp-bottom-menu-item-icons fa " />
+            </div>
+            <span />
+          </a>
+          <a href="http://m.me/diwe.vn" className="wp-bottom-menu-item">
+            <div className="wp-bottom-menu-icon-wrapper">
+              <i className="wp-bottom-menu-item-icons fa " />
+            </div>
+            <span />
+          </a>
+        </div>{" "}
+        <aside className="menu-bottom-drawer menu-dv-mb">
+          <div className="title">
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
+            Dịch vụ của Adser
+          </div>
+          <ul className="t-submenu">
+            <li  >
+              <div className="title-box-service">
+                <img src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon1.png" />
+                <div className="title-child">
+                  <h3>
+                    <a href="https://adser.vn/thiet-ke-website-chuyen-nghiep/">
+                      Thiết kế website chuyên nghiệp
+                    </a>
+                  </h3>
+                  <p>
+                    Giải pháp thiết kế website bán hàng, giới thiệu dịch vụ chuyên
+                    nghiệp
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li  >
+              <div className="title-box-service">
+                <img src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon2.png" />
+                <div className="title-child">
+                  <h3>
+                    <a href="https://adser.vn/thiet-ke-nhan-dien-thuong-hieu/">
+                      Thiết kế nhận diện thương hiệu
+                    </a>
+                  </h3>
+                  <p>Giải pháp xây dựng bộ nhận diện thương hiệu cho doanh nghiệp</p>
+                </div>
+              </div>
+            </li>
+            <li  >
+              <div className="title-box-service">
+                <img src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon3.png" />
+                <div className="title-child">
+                  <h3>
+                    <a href="https://adser.vn/quan-tri-va-sang-tao-noi-dung/">
+                      Quản trị và sáng tạo nội dung
+                    </a>
+                  </h3>
+                  <p>Phát triển và sáng tạo nội dung trên các kênh truyền thông</p>
+                </div>
+              </div>
+            </li>
+            <li  >
+              <div className="title-box-service">
+                <img src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon4.png_" />
+                <div className="title-child">
+                  <h3>
+                    <a href="https://adser.vn/thiet-ke-landing-page/">
+                      Thiết kế landing page
+                    </a>
+                  </h3>
+                  <p>
+                    Landing page tối ưu chuyển đổi và tìm kiếm khách hàng tiềm năng
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li  >
+              <div className="title-box-service">
+                <img src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon5.png" />
+                <div className="title-child">
+                  <h3>
+                    <a href="https://adser.vn/dich-vu-seo-tong-the/">
+                      Dịch vụ SEO tổng thể
+                    </a>
+                  </h3>
+                  <p>Giải pháp tối ưu hóa công cụ tìm kiếm cho website của bạn</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="title-box-service">
+                <img src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon6.png" />
+                <div className="title-child">
+                  <h3>
+                    <a href="https://adser.vn/phong-marketing-thue-ngoai/">
+                      Phòng Marketing thuê ngoài
+                    </a>
+                  </h3>
+                  <p>Sở hữu đội Marketing mà không phải tốn công xây dựng</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </aside>
+        <aside className="menu-bottom-drawer t-menu-mb">
+          <div className="bg" />
+          <div className="tmn-content">
+            <div className="title">
+              <span className="closeMenu" />
+              Danh mục
+            </div>
+            <ul className="t-submenu">
+              <li>
+                <a href="https://adser.vn/ve-chung-toi/">Về chúng tôi</a>
+              </li>
+              <li>
+                <a href="https://adser.vn/du-an/">Dự án</a>
+              </li>
+              <li>
+                <a href="https://adser.vn/ho-tro-khach-hang/" aria-current="page">
+                  Hỗ trợ khách hàng
+                </a>
+              </li>
+              <li className="mn-td">
+                <a href="https://adser.vn/tuyen-dung">
+                  Tuyển dụng <sup className="badge badge-danger">Hot</sup>
+                </a>
+              </li>
+              <li>
+                <a href="https://adser.vn/blog/">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <div className="phone-ring">
+          <div className="n-tell">
+            <div className="n-tell-phone-ring">
+              <div className="n-tell-cricle" />
+              <div className="n-tell-cricle-fill" />
+              <div className="n-tell-img-cricle">
+                <a href="tel:0969565744" className="n-pps-btn-img">
+                  <br />
+                  <img
+                    src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/icon-call.png"
+                    alt="Gọi điện ngay"
+                  // sizes={5}
+                  />
+                  <br />
+                </a>
+              </div>
+              <p />
+            </div>
+            <div className="n-tell-bar">
+              <a href="tel:0969565744">
+                <br />
+                <span className="n-text-tell">0969565744</span>
+                <br />
+              </a>
+            </div>
           </div>
         </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
+        <div className="list-shortcut-desktop">
+          <a className="zalo" href="https://zalo.me/g/uesxge341" />
+          <a className="mess" href="https://m.me/hieunguyen.jc" />
         </div>
-      </main>
+        <style
+          id="global-styles-inline-css"
+          type="text/css"
+          dangerouslySetInnerHTML={{
+            __html:
+              "body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}"
+          }}
+        />{" "}
+        {/*[if IE]>  <![endif]*/}
+        <textarea
+          id="BFI_DATA"
+          style={{ width: 1, height: 1, display: "none" }}
+          defaultValue={""}
+        />
+        <title> </title>
+        <div
+          id="goog-gt-tt"
+          className="VIpgJd-yAWNEb-L7lbkb skiptranslate"
+          style={{
+            borderRadius: 12,
+            margin: "0 0 0 -23px",
+            padding: 0,
+            fontFamily: '"Google Sans", Arial, sans-serif'
+          }}
+          data-id=""
+        >
+          <div id="goog-gt-vt" className="VIpgJd-yAWNEb-hvhgNd">
+            <div className=" VIpgJd-yAWNEb-hvhgNd-l4eHX-i3jM8c">
+              <img
+                src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/24px.svg"
+                width={24}
+                height={24}
+                alt=""
+              />
+            </div>
+            <div className=" VIpgJd-yAWNEb-hvhgNd-k77Iif-i3jM8c">
+              <div className="VIpgJd-yAWNEb-hvhgNd-IuizWc" dir="ltr">
+                Văn bản gốc
+              </div>
+              <div
+                id="goog-gt-original-text"
+                className="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"
+              />
+            </div>
+            <div className="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr">
+              <div className="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr">
+                <div className="VIpgJd-yAWNEb-hvhgNd-UTujCb">
+                  Đánh giá bản dịch này
+                </div>
+                <div className="VIpgJd-yAWNEb-hvhgNd-eO9mKe">
+                  Ý kiến phản hồi của bạn sẽ được dùng để góp phần cải thiện Google
+                  Dịch
+                </div>
+              </div>
+              <div className="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr">
+                <button
+                  id="goog-gt-thumbUpButton"
+                  type="button"
+                  className="VIpgJd-yAWNEb-hvhgNd-bgm6sf"
+                  title="Bản dịch tốt"
+                  aria-label="Bản dịch tốt"
+                  aria-pressed="false"
+                >
+                  <span id="goog-gt-thumbUpIcon">
+                    <svg
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      focusable="false"
+                      className="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"
+                    >
+                      <path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z" />
+                    </svg>
+                  </span>
+                  <span id="goog-gt-thumbUpIconFilled">
+                    <svg
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      focusable="false"
+                      className="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"
+                    >
+                      <path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z" />
+                    </svg>
+                  </span>
+                </button>
+                <button
+                  id="goog-gt-thumbDownButton"
+                  type="button"
+                  className="VIpgJd-yAWNEb-hvhgNd-bgm6sf"
+                  title="Bản dịch kém"
+                  aria-label="Bản dịch kém"
+                  aria-pressed="false"
+                >
+                  <span id="goog-gt-thumbDownIcon">
+                    <svg
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      focusable="false"
+                      className="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"
+                    >
+                      <path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z" />
+                    </svg>
+                  </span>
+                  <span id="goog-gt-thumbDownIconFilled">
+                    <svg
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      focusable="false"
+                      className="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"
+                    >
+                      <path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z" />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              id="goog-gt-votingHiddenPane"
+              className="VIpgJd-yAWNEb-hvhgNd-aXYTce"
+            >
+              <form
+                id="goog-gt-votingForm"
+                action="https://translate.googleapis.com/translate_voting?client=te"
+                method="post"
+                target="votingFrame"
+                className="VIpgJd-yAWNEb-hvhgNd-aXYTce"
+              >
+                <input type="text" name="sl" id="goog-gt-votingInputSrcLang" />
+                <input type="text" name="tl" id="goog-gt-votingInputTrgLang" />
+                <input type="text" name="query" id="goog-gt-votingInputSrcText" />
+                <input type="text" name="gtrans" id="goog-gt-votingInputTrgText" />
+                <input type="text" name="vote" id="goog-gt-votingInputVote" />
+              </form>
+              <iframe
+                name="votingFrame"
+                frameBorder={0}
+                src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/saved_resource.html"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          id="WidgetFloaterPanels"
+          translate="no"
+          style={{
+            display: "none",
+            textAlign: "left",
+            direction: "ltr",
+            visibility: "hidden"
+          }}
+          className="LTRStyle"
+        >
+          {" "}
+          <div>
+
+
+            <div id="WidgetLogoPanel">
+              {" "}
+              <span id="WidgetTranslateWithSpan">
+                <span>TRANSLATE with </span>
+                <img id="FloaterLogo" />
+              </span>{" "}
+              <span
+                id="WidgetCloseButton"
+                title="Exit Translation"
+
+              >
+                x
+              </span>
+            </div>{" "}
+
+            <div id="CTFLinksPanel">
+              {" "}
+              <span id="ExternalLinksPanel">
+                <a
+                  id="HelpLink"
+                  title="Help"
+                  target="_blank"
+                  href="https://go.microsoft.com/?linkid=9722454"
+                >
+                  {" "}
+                  <img id="HelpImg" />
+                </a>{" "}
+                <a
+                  id="EmbedLink"
+                  href="javascript:Microsoft.Translator.FloaterShowEmbed()"
+                  title="Get this widget for your own site"
+                >
+                  {" "}
+                  <img id="EmbedImg" />
+                </a>{" "}
+                <a
+                  id="ShareLink"
+                  title="Share translated page with friends"
+                  href="javascript:Microsoft.Translator.FloaterShowSharePanel()"
+                >
+                  {" "}
+                  <img id="ShareImg" />
+                </a>{" "}
+              </span>{" "}
+            </div>{" "}
+            <div id="FloaterProgressBar">
+              {" "}
+              <span id="ProgressFill" />{" "}
+            </div>{" "}
+          </div>{" "}
+          <div  >
+
+
+            <span>TRANSLATE with </span>
+            <img id="CollapsedLogoImg" />
+          </div>{" "}
+          <div id="FloaterSharePanel" style={{ display: "none" }}>
+            {" "}
+            <div id="ShareTextDiv">
+              {" "}
+              <span id="ShareTextSpan"> COPY THE URL BELOW </span>{" "}
+            </div>{" "}
+            <div id="ShareTextboxDiv">
+              {" "}
+              <input
+
+              />{" "}
+              {/*a id="TwitterLink" title="Share on Twitter"> <img id="TwitterImg" /></a> <a-- id="FacebookLink" title="Share on Facebook"> <img id="FacebookImg" /></a*/}{" "}
+              <a id="EmailLink" title="Email this translation">
+                {" "}
+                <img id="EmailImg" />
+              </a>{" "}
+            </div>{" "}
+            <div id="ShareFooter">
+              {" "}
+              <span id="ShareHelpSpan">
+                <a id="ShareHelpLink">
+                  {" "}
+                  <img id="ShareHelpImg" />
+                </a>
+              </span>{" "}
+              <span id="ShareBackSpan">
+                <a
+                  id="ShareBack"
+                  href="javascript:Microsoft.Translator.FloaterOnShareBackClick()"
+                  title="Back To Translation"
+                >
+                  {" "}
+                  Back
+                </a>
+              </span>{" "}
+            </div>{" "}
+            <input
+              name="EmailSubject"
+              type="hidden"
+              id="EmailSubject"
+              defaultValue="Check out this page in {0} translated from {1}"
+            />{" "}
+            <input
+              name="EmailBody"
+              type="hidden"
+              id="EmailBody"
+              defaultValue="Translated: {0}%0d%0aOriginal: {1}%0d%0a%0d%0aAutomatic translation powered by Microsoft® Translator%0d%0ahttp://www.bing.com/translator?ref=MSTWidget"
+            />{" "}
+            <input
+              type="hidden"
+              id="ShareHelpText"
+              defaultValue="This link allows visitors to launch this page and automatically translate it to {0}."
+            />{" "}
+          </div>{" "}
+          <div id="FloaterEmbed" style={{ display: "none" }}>
+            {" "}
+            <div id="EmbedTextDiv">
+              {" "}
+              <span id="EmbedTextSpan">
+                EMBED THE SNIPPET BELOW IN YOUR SITE
+              </span>{" "}
+              <a
+                id="EmbedHelpLink"
+                title="Copy this code and place it into your HTML."
+              >
+                {" "}
+                <img id="EmbedHelpImg" />
+              </a>{" "}
+            </div>{" "}
+            <div id="EmbedTextboxDiv">
+              {" "}
+              <input
+              />{" "}
+            </div>{" "}
+            <div id="EmbedNoticeDiv">
+              <span id="EmbedNoticeSpan">
+                Enable collaborative features and customize widget:{" "}
+                <a href="http://www.bing.com/widget/translator" target="_blank">
+                  Bing Webmaster Portal
+                </a>
+              </span>
+            </div>{" "}
+            <div id="EmbedFooterDiv">
+              <span id="EmbedBackSpan">
+                <a
+                  href="javascript:Microsoft.Translator.FloaterOnEmbedBackClick()"
+                  title="Back To Translation"
+                >
+                  Back
+                </a>
+              </span>
+            </div>{" "}
+          </div>
+        </div>
+        <div className="VIpgJd-ZVi9od-aZ2wEe-wOHMyf">
+          <div className="VIpgJd-ZVi9od-aZ2wEe-OiiCO">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="VIpgJd-ZVi9od-aZ2wEe"
+              width="96px"
+              height="96px"
+              viewBox="0 0 66 66"
+            >
+              <circle
+                className="VIpgJd-ZVi9od-aZ2wEe-Jt5cK"
+                fill="none"
+                strokeWidth={6}
+                strokeLinecap="round"
+                cx={33}
+                cy={33}
+                r={30}
+              />
+            </svg>
+          </div>
+        </div>
+      </>
+
     </>
   )
 }
