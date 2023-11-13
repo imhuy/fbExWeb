@@ -1,8 +1,6 @@
 import { Inter } from '@next/font/google'
 import Head from 'next/head'
 
-
-
 export default function Home() {
   return (
     <>
@@ -305,146 +303,7 @@ export default function Home() {
                             dir="ltr"
                             style={{}}
                           >
-                            <div id=":0.targetLanguage">
-                              <select
-                                className="goog-te-combo"
-                                aria-label="Tiện ích dịch ngôn ngữ"
-                              >
-                                <option value="">Chọn Ngôn ngữ</option>
-                                <option value="ar">Ả Rập</option>
-                                <option value="sq">Albania</option>
-                                <option value="am">Amharic</option>
-                                <option value="en">Anh</option>
-                                <option value="hy">Armenia</option>
-                                <option value="as">Assam</option>
-                                <option value="ay">Aymara</option>
-                                <option value="az">Azerbaijan</option>
-                                <option value="pl">Ba Lan</option>
-                                <option value="fa">Ba Tư</option>
-                                <option value="bm">Bambara</option>
-                                <option value="xh">Bantu</option>
-                                <option value="eu">Basque</option>
-                                <option value="be">Belarus</option>
-                                <option value="bn">Bengal</option>
-                                <option value="bho">Bhojpuri</option>
-                                <option value="bs">Bosnia</option>
-                                <option value="pt">Bồ Đào Nha</option>
-                                <option value="bg">Bulgaria</option>
-                                <option value="ca">Catalan</option>
-                                <option value="ceb">Cebuano</option>
-                                <option value="ny">Chichewa</option>
-                                <option value="co">Corsi</option>
-                                <option value="ht">Creole (Haiti)</option>
-                                <option value="hr">Croatia</option>
-                                <option value="dv">Dhivehi</option>
-                                <option value="iw">Do Thái</option>
-                                <option value="doi">Dogri</option>
-                                <option value="da">Đan Mạch</option>
-                                <option value="de">Đức</option>
-                                <option value="et">Estonia</option>
-                                <option value="ee">Ewe</option>
-                                <option value="tl">Filipino</option>
-                                <option value="fy">Frisia</option>
-                                <option value="gd">Gael Scotland</option>
-                                <option value="gl">Galicia</option>
-                                <option value="ka">George</option>
-                                <option value="gn">Guarani</option>
-                                <option value="gu">Gujarat</option>
-                                <option value="nl">Hà Lan</option>
-                                <option value="af">Hà Lan (Nam Phi)</option>
-                                <option value="ko">Hàn</option>
-                                <option value="ha">Hausa</option>
-                                <option value="haw">Hawaii</option>
-                                <option value="hi">Hindi</option>
-                                <option value="hmn">Hmong</option>
-                                <option value="hu">Hungary</option>
-                                <option value="el">Hy Lạp</option>
-                                <option value="is">Iceland</option>
-                                <option value="ig">Igbo</option>
-                                <option value="ilo">Ilocano</option>
-                                <option value="id">Indonesia</option>
-                                <option value="ga">Ireland</option>
-                                <option value="jw">Java</option>
-                                <option value="kn">Kannada</option>
-                                <option value="kk">Kazakh</option>
-                                <option value="km">Khmer</option>
-                                <option value="rw">Kinyarwanda</option>
-                                <option value="gom">Konkani</option>
-                                <option value="kri">Krio</option>
-                                <option value="ku">Kurd (Kurmanji)</option>
-                                <option value="ckb">Kurd (Sorani)</option>
-                                <option value="ky">Kyrgyz</option>
-                                <option value="lo">Lào</option>
-                                <option value="la">Latinh</option>
-                                <option value="lv">Latvia</option>
-                                <option value="ln">Lingala</option>
-                                <option value="lt">Litva</option>
-                                <option value="lg">Luganda</option>
-                                <option value="lb">Luxembourg</option>
-                                <option value="ms">Mã Lai</option>
-                                <option value="mk">Macedonia</option>
-                                <option value="mai">Maithili</option>
-                                <option value="mg">Malagasy</option>
-                                <option value="ml">Malayalam</option>
-                                <option value="mt">Malta</option>
-                                <option value="mi">Maori</option>
-                                <option value="mr">Marathi</option>
-                                <option value="mni-Mtei">Meiteilon (Manipuri)</option>
-                                <option value="lus">Mizo</option>
-                                <option value="mn">Mông Cổ</option>
-                                <option value="my">Myanmar</option>
-                                <option value="no">Na Uy</option>
-                                <option value="ne">Nepal</option>
-                                <option value="ru">Nga</option>
-                                <option value="ja">Nhật</option>
-                                <option value="or">Odia (Oriya)</option>
-                                <option value="om">Oromo</option>
-                                <option value="ps">Pashto</option>
-                                <option value="sa">Phạn</option>
-                                <option value="fr">Pháp</option>
-                                <option value="fi">Phần Lan</option>
-                                <option value="pa">Punjab</option>
-                                <option value="qu">Quechua</option>
-                                <option value="eo">Quốc tế ngữ</option>
-                                <option value="ro">Rumani</option>
-                                <option value="sm">Samoa</option>
-                                <option value="cs">Séc</option>
-                                <option value="nso">Sepedi</option>
-                                <option value="sr">Serbia</option>
-                                <option value="st">Sesotho</option>
-                                <option value="sn">Shona</option>
-                                <option value="sd">Sindhi</option>
-                                <option value="si">Sinhala</option>
-                                <option value="sk">Slovak</option>
-                                <option value="sl">Slovenia</option>
-                                <option value="so">Somali</option>
-                                <option value="su">Sunda</option>
-                                <option value="sw">Swahili</option>
-                                <option value="tg">Tajik</option>
-                                <option value="ta">Tamil</option>
-                                <option value="tt">Tatar</option>
-                                <option value="es">Tây Ban Nha</option>
-                                <option value="te">Telugu</option>
-                                <option value="th">Thái</option>
-                                <option value="tr">Thổ Nhĩ Kỳ</option>
-                                <option value="sv">Thụy Điển</option>
-                                <option value="ti">Tigrinya</option>
-                                <option value="zh-CN">Trung (Giản thể)</option>
-                                <option value="zh-TW">Trung (Phồn thể)</option>
-                                <option value="ts">Tsonga</option>
-                                <option value="tk">Turkmen</option>
-                                <option value="ak">Twi</option>
-                                <option value="uk">Ukraina</option>
-                                <option value="ur">Urdu</option>
-                                <option value="ug">Uyghur</option>
-                                <option value="uz">Uzbek</option>
-                                <option value="cy">Xứ Wales</option>
-                                <option value="it">Ý</option>
-                                <option value="yi">Yiddish</option>
-                                <option value="yo">Yoruba</option>
-                                <option value="zu">Zulu</option>
-                              </select>
-                            </div>
+                           
                             Được hỗ trợ bởi{" "}
                             <span style={{ whiteSpace: "nowrap" }}>
                               <a
@@ -1757,7 +1616,7 @@ flex-grow"
                         >
                           <div className="col-inner">
                             <div id="text-4272362232" className="text">
-                              <p>contact@adser.vn</p>
+                              <p>contact@adspite.com</p>
                               <style
                                 dangerouslySetInnerHTML={{
                                   __html:
@@ -2044,19 +1903,14 @@ flex-grow"
               </div>
             </div>
             <a
-              href="https://adser.vn/#top"
+              href="#top"
               className="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle active"
               id="top-link"
               aria-label="Go to top"
             >
               <i className="icon-angle-up" />
             </a>
-            <div className="shape16">
-              <img
-                src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/bg-effect.png"
-                alt="img-effect"
-              />
-            </div>
+            
           </footer>
         </div>
         <div id="main-menu" className="mobile-sidebar no-scrollbar mfp-hide">
@@ -2550,25 +2404,7 @@ flex-grow"
           </div>
         </div>
         <div className="VIpgJd-ZVi9od-aZ2wEe-wOHMyf">
-          <div className="VIpgJd-ZVi9od-aZ2wEe-OiiCO">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="VIpgJd-ZVi9od-aZ2wEe"
-              width="96px"
-              height="96px"
-              viewBox="0 0 66 66"
-            >
-              <circle
-                className="VIpgJd-ZVi9od-aZ2wEe-Jt5cK"
-                fill="none"
-                strokeWidth={6}
-                strokeLinecap="round"
-                cx={33}
-                cy={33}
-                r={30}
-              />
-            </svg>
-          </div>
+         
         </div>
       </>
 
