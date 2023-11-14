@@ -303,7 +303,7 @@ export default function Home() {
                             dir="ltr"
                             style={{}}
                           >
-                           
+
                             Được hỗ trợ bởi{" "}
                             <span style={{ whiteSpace: "nowrap" }}>
                               <a
@@ -432,7 +432,7 @@ flex-grow"
                           href="https://adser.vn/ve-chung-toi/"
                           className="nav-top-link"
                         >
-                          Về chúng tôi
+                          About us
                         </a>
                       </li>
                       <li
@@ -454,7 +454,7 @@ flex-grow"
                           href="https://adser.vn/tuyen-dung"
                           className="nav-top-link"
                         >
-                          Tuyển dụng
+                          Recruitment
                         </a>
                       </li>
                       <li
@@ -462,7 +462,7 @@ flex-grow"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3885 menu-item-design-default"
                       >
                         <a href="https://adser.vn/lien-he/" className="nav-top-link">
-                          Liên hệ
+                          Contact
                         </a>
                       </li>
                       <li
@@ -473,7 +473,7 @@ flex-grow"
                           href="https://adser.vn/category/tin-tuc/"
                           className="nav-top-link"
                         >
-                          Tin tức
+                          News
                         </a>
                       </li>
                       <li className="html header-button-1">
@@ -483,7 +483,7 @@ flex-grow"
                             className="button plain"
                             style={{ borderRadius: 99 }}
                           >
-                            <span>Đăng Nhập AdSpite</span>
+                            <span>Login AdSpite</span>
                           </a>
                         </div>
                       </li>
@@ -678,27 +678,25 @@ flex-grow"
                       <div className="col-inner">
                         <div id="text-1444454807" className="text sub-title">
                           <p>
-                            <i className="fas fa-circle" /> BẠN ĐANG TÌM KIẾM
+                            <i className="fas fa-circle" /> YOU ARE FINDING
                           </p>
                         </div>
                         <div id="text-2540642839" className="text vct-title">
                           <h2>
-                            <span>GIẢI PHÁP CHO</span>
+                            <span>SOLUTION FOR</span>
                           </h2>
                           <h2 className="run">
                             <span
                               className="txt-rotate"
                               data-rotate='[ "Facebook Adsertiser", "Tối ưu hiệu suất Ads", "Digital Marketing", "Quản lí tài khoản"]'
                             >
-                              <span className="wrap">Digita</span>
+                              <span className="wrap">FACEBOOK ADSERTISER</span>
                             </span>
                           </h2>
                         </div>
                         <div id="text-2434312235" className="text home-short-des">
                           <p>
-                            Với sự thấu hiểu về Quảng Cáo và tận tâm về nhân lực,
-                            Adser tự hào mang đến những giải pháp toàn diện cho khách
-                            hàng
+                            With an understanding of Advertising and dedicated human resources, Adser is proud to bring comprehensive solutions to customers.
                           </p>
                         </div>
                         <a
@@ -882,9 +880,9 @@ flex-grow"
                 <div className="section-content relative">
                   <div id="text-1290484646" className="text text-title">
                     <h2>
-                      Tại sao nên sử dụng công cụ{" "}
+                      Why should you use tools{" "}
                       <span style={{ color: "#0072ff" }}>
-                        <strong>Adser?</strong>
+                        <strong>Adspite?</strong>
                       </span>
                     </h2>
                     <style
@@ -935,12 +933,10 @@ flex-grow"
                           />
                         </div>
                         <h4>
-                          Tính năng <strong>Toàn diện</strong>
+                          <strong>Comprehensive Features</strong>
                         </h4>
                         <p>
-                          Toàn bộ tính năng được thiết kế thông minh, bố cục sắp xếp
-                          hợp lý mang đến trải nghiệm UI/UX tốt nhất cho khách truy
-                          cập.
+                          All features are intelligently designed, with a streamlined layout to bring the best UI/UX experience to visitors.
                         </p>
                       </div>
                     </div>
@@ -970,12 +966,10 @@ flex-grow"
                           />
                         </div>
                         <h4>
-                          <strong>Bảo mật thông tinh</strong>
+                          <strong>Information security</strong>
                         </h4>
                         <p>
-                          Thông tin khách hàng sử dụng được mã hoá và bảo mật hoàn
-                          toàn trên hệ thống của Adser.Vn. Khách hàng có thể thoải mái
-                          chọn sử dụng
+                          Customer information is encrypted and completely secure on Adser.Vn's system. Customers can freely choose to use it
                         </p>
                         <div
                           id="gtx-trans"
@@ -1014,11 +1008,9 @@ flex-grow"
                             }}
                           />
                         </div>
-                        <h4>Luôn Cập Nhật Mới</h4>
+                        <h4>Always Update New</h4>
                         <p>
-                          Đội ngũ kĩ thuật luôn theo dõi và update các tính năng theo
-                          kịp Facebook hiện tại. Hỗ trợ tối đa cho các bạn làm quảng
-                          cáo.
+                          The technical team always monitors and updates features to keep up with current Facebook. Maximum support for advertisers.
                         </p>
                         <div
                           id="gtx-trans"
@@ -1054,12 +1046,10 @@ flex-grow"
                           />
                         </div>
                         <h4>
-                          Mang lại sự <strong>Tiện lợi</strong>
+                          <strong>Bring Convenience</strong>
                         </h4>
                         <p>
-                          Tất cả được gói gọn trong 1 trang Landing Page, từ thông tin
-                          các TKQC cho đến các tính năng share, quản lí tài khoản,
-                          Pixel, …
+                          Everything is packaged in one Landing Page, from account information to sharing features, account management, Pixel,...
                         </p>
                       </div>
                     </div>
@@ -1089,12 +1079,10 @@ flex-grow"
                           />
                         </div>
                         <h4>
-                          Thể hiện sự <strong>Chuyên nghiệp</strong>
+                          <strong>Show Professionalism</strong>
                         </h4>
                         <p>
-                          Thay vì tốn công sức để quản lí từng tài khoản và thao tác
-                          một, Adser sẽ giúp bạn quản lí vận hành All In One chỉ trong
-                          cùng giao diện.
+                          Instead of wasting effort to manage each account and operation one by one, Adser will help you manage All In One operations in just the same interface.
                         </p>
                         <div
                           id="gtx-trans"
@@ -1137,12 +1125,10 @@ flex-grow"
                           />
                         </div>
                         <h4>
-                          Chi phí <strong>Tiết kiệm</strong>
+                          <strong>Cost Savings</strong>
                         </h4>
                         <p>
-                          Không cần quá nhiều chi phí để sử dụng công cụ, đa phần
-                          những tính năng từ Adser đều miễn phí cho người dùng trải
-                          nghiệm.
+                          There is no need to spend too much money to use the tool, most of the features from Adser are free for users to experience.
                         </p>
                         <div
                           id="gtx-trans"
@@ -1163,8 +1149,8 @@ flex-grow"
                           className="button primary lowercase tkl-btn"
                           style={{ borderRadius: 99 }}
                         >
-                          <i className="icon-angle-right" aria-hidden="true" />{" "}
-                          <span>Sử Dụng Ngay</span>
+
+                          <span>Used immediately</span>
                         </a>
                       </div>
                     </div>
@@ -1190,7 +1176,7 @@ flex-grow"
                       <div className="col-inner">
                         <div id="text-2953795293" className="text sub-title">
                           <p>
-                            <i className="fas fa-circle" /> GIẢI PHÁP QUẢN LÍ
+                            <i className="fas fa-circle" /> MANAGEMENT SOLUTIONS
                           </p>
                           <div
                             id="gtx-trans"
@@ -1208,7 +1194,7 @@ flex-grow"
                           <p className="desc">
                             <span style={{ fontSize: "105%" }}>
                               <strong>
-                                Tiện ích tối ưu hiệu quả quản lí tài khoản quảng cáo
+                                Utilities to effectively optimize advertising account management
                               </strong>
                             </span>
                           </p>
@@ -1224,11 +1210,7 @@ flex-grow"
                           </div>
                         </div>
                         <p>
-                          Adser chuyên sâu về lĩnh vực Facebook Advertiser, với những
-                          giải pháp tối ưu, quản lí tài khoản chuyên sâu, kinh nghiệm
-                          lâu năm và sự nhiệt huyết Adser đã đáp ứng được những yêu
-                          cầu khắt khe nhất của khách hàng và được các doanh nghiệp
-                          lựa chọn làm đối tác chiến lược.
+                          Adser specializes in the field of Facebook Advertiser, with optimal solutions, in-depth account management, long experience and enthusiasm Adser has met the most stringent requirements of customers and is recognized by businesses. Choose to be a strategic partner.
                         </p>
                         <div
                           id="gtx-trans"
@@ -1242,29 +1224,28 @@ flex-grow"
                           className="button primary lowercase home-vct"
                           style={{ borderRadius: 99 }}
                         >
-                          <span>Dùng Thử Miễn Phí</span>
-                          <i className="icon-user" aria-hidden="true" />
+                          <span>Try It Free</span>
+
                         </a>
                         <ul>
                           <li>
-                            <i className="fas fa-check-circle" /> Xoá quản trị viên ẩn
-                            TKQC.
+                            <i className="fas fa-check-circle" /> Delete admin hide Ad Account.
                           </li>
                           <li>
                             <i className="fas fa-check-circle" />
-                            &nbsp;Kiểm tra tổng quan trạng thái của tài khoản.
+                            &nbsp;Check your account status overview.
                           </li>
                           <li>
                             <i className="fas fa-check-circle" />
-                            &nbsp;Thao tác quản lí tối ưu hàng loạt tài khoản.
+                            &nbsp;Optimal management of a series of accounts.
                           </li>
                           <li>
                             <i className="fas fa-check-circle" />
-                            &nbsp;Bảo mật tài khoản quảng cáo của bạn.
+                            &nbsp;Secure your ad account.
                           </li>
                           <li>
-                            <i className="fas fa-check-circle" /> Xoá quản trị viên BM
-                            trước 7 ngày
+                            <i className="fas fa-check-circle" /> Delete BM admin
+                            7 days in advance
                           </li>
                         </ul>
                       </div>
@@ -1403,17 +1384,7 @@ flex-grow"
                         id="image_915649018"
                       >
                         <div className="img-inner dark">
-                          <img
-                            width={1022}
-                            height={334}
-                            src="./Adser - Giải pháp Cho Các Nhà Quảng Cáo Facebook Ads #1_files/LOGO-11-1.png"
-                            className="attachment-original size-original"
-                            alt=""
-                            decoding="async"
-                            loading="lazy"
-                            srcSet="https://adser.vn/wp-content/uploads/2023/06/LOGO-11-1.png 1022w, https://adser.vn/wp-content/uploads/2023/06/LOGO-11-1-300x98.png 300w, https://adser.vn/wp-content/uploads/2023/06/LOGO-11-1-768x251.png 768w"
-                            sizes="(max-width: 1022px) 100vw, 1022px"
-                          />
+                          <h1>ADSPITE</h1>
                         </div>
                         <style
                           dangerouslySetInnerHTML={{
@@ -1423,9 +1394,9 @@ flex-grow"
                       </div>
                       <div id="text-2766070991" className="text">
                         <p>
-                          <strong>Adser.vn</strong> cung cấp giải pháp quản lí tài
-                          nguyên Facebook tổng thể, toàn diện giúp doanh nghiệp xây
-                          dựng một thương hiệu mạnh và bán hàng hiệu quả trên FB
+                          <strong>Adspite.com</strong> Provides financial management solutions
+                          Comprehensive and comprehensive Facebook resource helps businesses build
+                          Build a strong brand and sell effectively on Facebook
                           Platform.
                         </p>
                         <div
@@ -1446,13 +1417,13 @@ flex-grow"
                   <div id="col-183741932" className="col medium-3 small-6 large-3">
                     <div className="col-inner">
                       <div id="text-2978506409" className="text">
-                        <h3>LIÊN KẾT NHANH</h3>
+                        <h3>QUICK LINKS</h3>
                         <ul>
                           <li>
-                            <a href="https://adser.vn/ve-chung-toi/">Về chúng tôi</a>
+                            <a href="https://adser.vn/ve-chung-toi/">About us</a>
                           </li>
                           <li>
-                            <a href="https://adser.vn/tuyen-dung/">Tuyển dụng</a>
+                            <a href="https://adser.vn/tuyen-dung/">Recruitment</a>
                           </li>
                           <li>
                             <a href="https://adser.vn/ho-tro-khach-hang/">
@@ -1460,10 +1431,10 @@ flex-grow"
                             </a>
                           </li>
                           <li>
-                            <a href="https://adser.vn/du-an/">Dự án tiêu biểu</a>
+                            <a href="https://adser.vn/du-an/">Typical projects</a>
                           </li>
                           <li>
-                            <a href="https://adser.vn/blog/">Blog và Tin tức</a>
+                            <a href="https://adser.vn/blog/">Blog and News</a>
                           </li>
                           <li>
                             <a href="https://adser.vn/ho-tro-khach-hang/">
@@ -1483,14 +1454,14 @@ flex-grow"
                   <div id="col-47048979" className="col medium-3 small-6 large-3">
                     <div className="col-inner">
                       <div id="text-506517798" className="text">
-                        <h3>DỊCH VỤ CỦA ADSPITE</h3>
+                        <h3>ADSPITE SERVICES</h3>
                         <ul>
-                          <li>Cho thuê tài khoản Agency</li>
-                          <li>Shop Dịch Vụ Tài Nguyên</li>
-                          <li>Phần mềm về bán hàng</li>
-                          <li>Thiết kế landing page</li>
-                          <li>Dịch vụ SEO tổng thể</li>
-                          <li>Phòng Marketing thuê ngoài</li>
+                          <li>Agency account rental</li>
+                          <li>Resource Service Shop</li>
+                          <li>Sales software</li>
+                          <li>Design landing pages</li>
+                          <li>Overall SEO service</li>
+                          <li>Outsourced Marketing Department</li>
                         </ul>
                         <div
                           id="gtx-trans"
@@ -1515,119 +1486,7 @@ flex-grow"
                     id="col-777198167"
                     className="col foot-tt medium-3 small-6 large-3"
                   >
-                    <div className="col-inner">
-                      <div id="text-4016739378" className="text">
-                        <h3>THÔNG TIN LIÊN HỆ</h3>
-                        <style
-                          dangerouslySetInnerHTML={{
-                            __html:
-                              "#text-4016739378 {\n  color: rgb(255, 255, 255);\n}\n#text-4016739378 > * {\n  color: rgb(255, 255, 255);\n}"
-                          }}
-                        />
-                      </div>
-                      <div className="row row-collapse" id="row-1077378498">
-                        <div
-                          id="col-415216190"
-                          className="col medium-2 small-2 large-2"
-                        >
-                          <div className="col-inner text-center">
-                            <div id="text-3071337137" className="text">
-                              <i className="fas fa-map-marker-alt" />
-                              <style
-                                dangerouslySetInnerHTML={{
-                                  __html:
-                                    "#text-3071337137 {\n  color: rgb(255, 255, 255);\n}\n#text-3071337137 > * {\n  color: rgb(255, 255, 255);\n}"
-                                }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          id="col-633715720"
-                          className="col medium-10 small-10 large-10"
-                        >
-                          <div className="col-inner">
-                            <div id="text-3942979800" className="text">
-                              <p>T10 Times city, Vinh Tuy, Hai Ba Trung, Ha Noi</p>
-                              <style
-                                dangerouslySetInnerHTML={{
-                                  __html:
-                                    "#text-3942979800 {\n  color: rgb(255, 255, 255);\n}\n#text-3942979800 > * {\n  color: rgb(255, 255, 255);\n}"
-                                }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="row row-collapse" id="row-1325804731">
-                        <div
-                          id="col-1107147692"
-                          className="col medium-2 small-2 large-2"
-                        >
-                          <div className="col-inner text-center">
-                            <div id="text-4129779493" className="text">
-                              <i className="fas fa-phone-alt" />
-                              <style
-                                dangerouslySetInnerHTML={{
-                                  __html:
-                                    "#text-4129779493 {\n  color: rgb(255, 255, 255);\n}\n#text-4129779493 > * {\n  color: rgb(255, 255, 255);\n}"
-                                }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          id="col-1908213049"
-                          className="col medium-10 small-10 large-10"
-                        >
-                          <div className="col-inner">
-                            <div id="text-4199379615" className="text">
-                              <p>0969.56.57.44</p>
-                              <style
-                                dangerouslySetInnerHTML={{
-                                  __html:
-                                    "#text-4199379615 {\n  color: rgb(255, 255, 255);\n}\n#text-4199379615 > * {\n  color: rgb(255, 255, 255);\n}"
-                                }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="row row-collapse" id="row-389869128">
-                        <div
-                          id="col-1726334291"
-                          className="col medium-2 small-2 large-2"
-                        >
-                          <div className="col-inner text-center">
-                            <div id="text-743001925" className="text">
-                              <i className="fas fa-envelope" />
-                              <style
-                                dangerouslySetInnerHTML={{
-                                  __html:
-                                    "#text-743001925 {\n  color: rgb(255, 255, 255);\n}\n#text-743001925 > * {\n  color: rgb(255, 255, 255);\n}"
-                                }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          id="col-85176037"
-                          className="col medium-10 small-10 large-10"
-                        >
-                          <div className="col-inner">
-                            <div id="text-4272362232" className="text">
-                              <p>contact@adspite.com</p>
-                              <style
-                                dangerouslySetInnerHTML={{
-                                  __html:
-                                    "#text-4272362232 {\n  color: rgb(255, 255, 255);\n}\n#text-4272362232 > * {\n  color: rgb(255, 255, 255);\n}"
-                                }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+
                   </div>
                 </div>
                 <div className="row footer-mb show-for-small" id="row-1070495102">
@@ -1897,7 +1756,7 @@ flex-grow"
               <div className="container clearfix">
                 <div className="footer-primary pull-left">
                   <div className="copyright-footer">
-                    Design by 2023 © <strong>Giao diện web đẹp</strong>
+                    Design by 2023 © <strong>ADSPITE</strong>
                   </div>
                 </div>
               </div>
@@ -1910,7 +1769,7 @@ flex-grow"
             >
               <i className="icon-angle-up" />
             </a>
-            
+
           </footer>
         </div>
         <div id="main-menu" className="mobile-sidebar no-scrollbar mfp-hide">
@@ -2088,7 +1947,7 @@ flex-grow"
           </div>
         </aside>
         <div className="phone-ring">
-         
+
         </div>
         <div className="list-shortcut-desktop">
           <a className="zalo" href="https://zalo.me/g/uesxge341" />
@@ -2404,7 +2263,7 @@ flex-grow"
           </div>
         </div>
         <div className="VIpgJd-ZVi9od-aZ2wEe-wOHMyf">
-         
+
         </div>
       </>
 
