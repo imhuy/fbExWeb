@@ -969,7 +969,7 @@ flex-grow"
                           <strong>Information security</strong>
                         </h4>
                         <p>
-                          Customer information is encrypted and completely secure on Adser.Vn's system. Customers can freely choose to use it
+                          Customer information is encrypted and completely secure on Adser.Vn system. Customers can freely choose to use it
                         </p>
                         <div
                           id="gtx-trans"
