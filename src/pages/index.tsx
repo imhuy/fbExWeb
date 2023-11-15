@@ -701,13 +701,13 @@ flex-grow"
                         </div>
                         <a
                           rel="noopener noreferrer"
-                          href="https://chrome.google.com/webstore/detail/adser-check-pro/nmmdnkjpjdbdejdlokihjkjohplpbhod?hl=vi"
+                          href="https://chrome.google.com/webstore/detail/adser-check-pro/xxnmmdnkjpjdbdejdlokihjkjohplpbhod?hl=vi"
                           target="_blank"
                           className="button primary lowercase home-vct"
                           style={{ borderRadius: 99 }}
                         >
-                          <span>Tải Xuống Ngay</span>
-                          <i className="icon-google-plus" aria-hidden="true" />
+                          <span>Download Now</span>
+                         
                         </a>
                         <a
                           rel="noopener noreferrer"
@@ -716,7 +716,7 @@ flex-grow"
                           className="button primary is-outline lowercase home-prf"
                           style={{ borderRadius: 99 }}
                         >
-                          <span>Về Chúng Tôi</span>
+                          <span>About us</span>
                         </a>
                       </div>
                     </div>
